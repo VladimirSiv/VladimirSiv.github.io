@@ -1,0 +1,107 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="502px" height="217px" viewBox="0 0 502 217" enable-background="new 0 0 502 217" xml:space="preserve">
+    
+<defs>
+	<style type="text/css">
+	text {
+	  font-family: Helvetica, Verdana, ArialUnicodeMS, san-serif
+	}
+	</style>
+</defs>
+
+<g>
+   <desc>
+	PS 3.5 Part 5: Data Structures and Encoding
+   </desc>
+</g>
+
+<g>
+	<rect x="1" y="1" fill="#F5EED6" width="500" height="215"/>
+	<g>
+		<rect x="105.245" y="124.304" fill="#86B2D8" stroke="#000000" width="42.823" height="36"/>
+		<rect x="60.288" y="124.304" fill="#B2CEE7" stroke="#000000" width="44.957" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 74.1509 145.3613)" font-size="10">Tag</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 119.9214 145.3613)" font-size="10">VR</text>
+		</g>
+		<rect x="148.245" y="124.304" fill="#B2CEE7" stroke="#000000" width="42.823" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 154.8271 138.7617)"><tspan x="0" y="0" font-size="10">Value</tspan><tspan x="0" y="10.008" font-size="10">Length</tspan></text>
+		</g>
+		<rect x="191.068" y="124.304" fill="#B2CEE7" stroke="#000000" width="193.957" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 263.791 145.3613)" font-size="10">Value Field</text>
+		</g>
+		
+			<line fill="none" stroke="#9D9FA2" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3,3" x1="102.554" y1="124.304" x2="60.142" y2="159.846"/>
+		
+			<line fill="none" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="4" x1="171.833" y1="66.245" x2="102.554" y2="124.304"/>
+		<rect x="117.858" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 134.2969 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<rect x="63.857" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 80.2964 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<rect x="171.858" y="30.533" fill="#B2CEE7" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 188.2969 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<rect x="225.858" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 242.2969 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<rect x="279.858" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 302.6914 51.5923)" font-size="10">...</text>
+		</g>
+		<rect x="333.858" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 350.2969 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<rect x="387.858" y="30.533" fill="#CCDEF0" stroke="#000000" width="54" height="36"/>
+		<g>
+			<text transform="matrix(1 0 0 1 404.2969 44.9922)"><tspan x="0" y="0" font-size="10">Data</tspan><tspan x="-7.781" y="10.008" font-size="10">Element</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 63.8853 21.5776)" font-size="12">Data Set</text>
+		</g>
+		
+			<line fill="none" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3.9923" x1="287.271" y1="66.533" x2="384.806" y2="124.134"/>
+		
+			<line fill="none" stroke="#9D9FA2" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3,3" x1="226.312" y1="30.533" x2="287.271" y2="66.533"/>
+		
+			<line fill="none" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3.9892" x1="128.857" y1="66.533" x2="60.175" y2="124.062"/>
+		
+			<line fill="none" stroke="#9D9FA2" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3,3" x1="171.924" y1="30.461" x2="128.857" y2="66.533"/>
+		
+			<line fill="none" stroke="#9D9FA2" stroke-width="0.5" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="3,3" x1="324.421" y1="124.305" x2="384.729" y2="159.846"/>
+		
+			<line fill="none" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-dasharray="4" x1="225.901" y1="66.245" x2="324.421" y2="124.305"/>
+		<polyline fill="none" stroke="#010101" stroke-miterlimit="1" points="157.701,184.833 146.068,184.833 133.229,154.487 		"/>
+		<g>
+			<text transform="matrix(1 0 0 1 162.5586 186.7949)"><tspan x="0" y="0" font-size="10">optional field - dependent on</tspan><tspan x="3.071" y="10.473" font-size="10">negotiated Transfer Syntax</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 225.5474 25.3018)" font-size="10">order of transmission</text>
+		</g>
+		<g>
+			<g>
+				<line fill="#4F8ABE" stroke="#005695" stroke-miterlimit="1" x1="325.627" y1="22.666" x2="399.487" y2="22.666"/>
+				<g>
+					<g>
+						<line fill="#4F8ABE" stroke="#005695" stroke-miterlimit="1" x1="139.798" y1="22.666" x2="215.03" y2="22.666"/>
+						<path fill="#005695" d="M214.419,22.666l-1.314-2.161l0.073-0.05l3.525,1.4c1.228,0.271,2.456,0.54,3.685,0.811
+							c-1.229,0.271-2.457,0.54-3.685,0.811l-3.525,1.4l-0.073-0.037L214.419,22.666z"/>
+					</g>
+				</g>
+				<path fill="#005695" d="M398.875,22.666l-1.314-2.161l0.074-0.05l3.524,1.4c1.229,0.271,2.457,0.54,3.685,0.811
+					c-1.228,0.271-2.456,0.54-3.685,0.811l-3.524,1.4l-0.074-0.037L398.875,22.666z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

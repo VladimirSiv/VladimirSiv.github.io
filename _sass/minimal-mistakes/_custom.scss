@@ -1,0 +1,19 @@
+.figure-div {
+    text-align: center;
+}
+figure {
+    display: inline-block;
+    margin-bottom: -20;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+}
+
+.formula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
