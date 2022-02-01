@@ -2,11 +2,11 @@
 title: "Achieving Scalable Multilingual Semantic Search"
 excerpt: "Basics of seq2seq architecture, ANNs, multilingual model, 
 and how to use them to achieve scalable multilingual semantic search"
-date: January 31, 2022
+date: February 1, 2022
 toc: true
 toc_label: "Content"
 toc_sticky: true
-last_modified_at: January 31, 2022
+last_modified_at: February 1, 2022
 ---
 
 <div class="formula">
