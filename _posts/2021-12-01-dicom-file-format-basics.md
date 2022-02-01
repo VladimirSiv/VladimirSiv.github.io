@@ -1,6 +1,6 @@
 ---
 title: "DICOM File Format Basics"
-excerpt: "Introduction to DICOM file format"
+excerpt: "Introduction to the DICOM file format"
 date: December 1, 2021
 toc: true
 toc_label: "Content"
