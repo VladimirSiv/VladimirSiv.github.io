@@ -23,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Vladimir Sivcevic"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "A simple blog"
+description              : "Blogging about things that interest me"
 url                      : https://www.vladsiv.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
