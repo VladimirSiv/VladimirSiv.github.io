@@ -467,9 +467,7 @@ If you are just starting out with the DICOM Standard it can be daunting when
 you look at the 
 [DICOM Standard](https://www.dicomstandard.org/current){:target="_blank"}, 
 22 parts where, for example, part 3 has 1802 pages in PDF format. 
-Just skimming through the whole Standard can take a while :D [^1]
-
-[^1]: Coa Markovic: xDDDDD
+Just skimming through the whole Standard can take a while :D
 
 The aim of this article is to introduce the basic concepts, related to the 
 file format, in a clear and concise manner. Grasping the basics 
