@@ -247,7 +247,7 @@ vectors, FAISS builds a data structure called _index_, where it stores vectors
 for efficient matching, and then for a new vector $$x$$ of dimension $$d$$ it 
 efficiently performs:
 
-$$j = \mathrm{argmin}_i||x-x_i||$$,
+$$j = \mathrm{argmin}_i||x-x_i||$$
 
 where $$\mid\mid\cdot\mid\mid$$ is the Euclidean distance ($$L^2$$) and 
 $$\mathrm{argmin}$$ is the search operation on the index.
