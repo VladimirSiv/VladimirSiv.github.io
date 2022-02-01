@@ -24,7 +24,7 @@ name                     : "Vladimir Sivcevic"
 port                     : 4000
 host                     : "0.0.0.0"
 description              : "A simple blog"
-url                      : https://vladsiv.com
+url                      : https://www.vladsiv.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
