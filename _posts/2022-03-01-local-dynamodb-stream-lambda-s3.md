@@ -1,11 +1,11 @@
 ---
 title: "DynamoDB Stream, Lambda, and S3 - Local Setup"
 excerpt: "A simple application that implements DynamoDB Stream, Lambda, and S3 services in a local setup"
-date: February 28, 2022
+date: March 1, 2022
 toc: true
 toc_label: "Content"
 toc_sticky: true
-last_modified_at: February 28, 2022
+last_modified_at: March 1, 2022
 ---
 
 {% include image.html
