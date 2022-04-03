@@ -16,7 +16,7 @@ a chance to meet and connect with like-minded people.
 
 Most of the articles here are related to data and 
 programming but my plan is to occasionally write 
-about the implementation of modern data solution in 
+about the implementation of modern data solutions in 
 scientific research.
 
 I hope you will enjoy your stay and don't forget to grab 
