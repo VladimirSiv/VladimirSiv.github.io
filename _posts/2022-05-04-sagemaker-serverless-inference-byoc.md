@@ -6,6 +6,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: May 4, 2022
+og_image: /assets/images/posts/sagemaker-serverless-inference-byoc/header.jpg
 ---
 
 {% include image.html

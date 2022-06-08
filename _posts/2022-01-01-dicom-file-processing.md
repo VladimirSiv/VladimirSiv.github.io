@@ -6,6 +6,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: January 1, 2022
+og_image: /assets/images/posts/dicom-playground/dicom-playground.jpg
 ---
 
 {% include image.html

@@ -6,6 +6,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: June 1, 2022
+og_image: /assets/images/posts/gitlab-parent-child-pipelines/header.jpg
 --- 
 
 {% include image.html

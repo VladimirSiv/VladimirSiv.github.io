@@ -6,6 +6,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: December 1, 2021
+og_image: /assets/images/posts/dicom-basics/dicom-basics-header.jpg
 ---
 
 {% include image.html

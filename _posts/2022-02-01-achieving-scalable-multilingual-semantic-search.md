@@ -7,6 +7,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: February 1, 2022
+og_image: /assets/images/posts/semantic-search/similarity-header.jpg
 ---
 
 <div class="formula">
