@@ -3,7 +3,7 @@ title:  false
 layout: single
 permalink: /about/
 author_profile: false
-comments: true
+comments: false
 ---
 
 Hey stranger :wave:

@@ -17,10 +17,10 @@ minimal_mistakes_skin2   : "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vladsiv"
+title                    : "vladsiv"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Vladimir Sivcevic"
+name                     : "vladsiv"
 port                     : 4000
 host                     : "0.0.0.0"
 description              : "Blogging about things that interest me"
@@ -108,7 +108,7 @@ author:
   name             : "Vladsiv"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "Theoretical physicist & biophysicist interested in programming, data science/engineering, and cloud technologies."
-  location         : "Belgrade, Serbia"
+  location         : "Novi Sad, Serbia"
   email            : "vladsiv@protonmail.com"
   links:
     - label: "Twitter"
@@ -128,7 +128,7 @@ author:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: https://www.instagram.com/vlad__siv/
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: https://stackoverflow.com/users/10947997/vlad-siv
