@@ -182,7 +182,7 @@ inverse of start-up ordering is applied. Of course, if no ordering dependency
 is defined between them, they are shut down or started simultaneously.
 
 > To learn more about dependency and ordering please read 
-[`man systemd.unit`](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#)
+[`man systemd.unit`](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#){:target="_blank"}
 
 ### Unit
 
@@ -195,40 +195,40 @@ Other types are:
 
 - `.socket`: an IPC or network socket or a file system FIFO controlled and 
 supervised by systemd, for socket-based activation. 
-Ref: [systemd.socket](https://www.freedesktop.org/software/systemd/man/systemd.socket.html#)
+Ref: [systemd.socket](https://www.freedesktop.org/software/systemd/man/systemd.socket.html#){:target="_blank"}
 - `.device`: a device unit as exposed in the sysfs/udev device tree. This may 
 be used to define dependencies between devices and other units. 
-Ref: [systemd.device](https://www.freedesktop.org/software/systemd/man/systemd.device.html#)
+Ref: [systemd.device](https://www.freedesktop.org/software/systemd/man/systemd.device.html#){:target="_blank"}
 - `.mount`: a file system mount point controlled and supervised by systemd. 
-Ref: [systemd.mount](https://www.freedesktop.org/software/systemd/man/systemd.mount.html#)
+Ref: [systemd.mount](https://www.freedesktop.org/software/systemd/man/systemd.mount.html#){:target="_blank"}
 - `.automount`: configures a mount point that will be automatically mounted. 
 For each automount unit file a matching mount unit file must exist. 
-Ref: [systemd.automount](https://www.freedesktop.org/software/systemd/man/systemd.automount.html#)
+Ref: [systemd.automount](https://www.freedesktop.org/software/systemd/man/systemd.automount.html#){:target="_blank"}
 - `.swap`: a swap device or file for memory paging controlled and supervised 
 by systemd. Swap units must be named after the devices or files they control. 
-Ref: [systemd.swap](https://www.freedesktop.org/software/systemd/man/systemd.swap.html#)
+Ref: [systemd.swap](https://www.freedesktop.org/software/systemd/man/systemd.swap.html#){:target="_blank"}
 - `.target`: target unit of systemd, which is used for grouping units during 
 start-up. Target units do not offer any additional functionality on top of 
 the generic functionality provided by units. They exist merely to group units 
 via dependencies, and to establish standardized names for synchronization 
 points used in dependencies between units. 
-Ref: [systemd.target](https://www.freedesktop.org/software/systemd/man/systemd.target.html#)
+Ref: [systemd.target](https://www.freedesktop.org/software/systemd/man/systemd.target.html#){:target="_blank"}
 - `.path`: a path monitored by systemd, for path-based activation. For each 
 path file, a matching unit file must exist, describing the unit to activate 
 when the path changes. 
-Ref: [systemd.path](https://www.freedesktop.org/software/systemd/man/systemd.path.html#)
+Ref: [systemd.path](https://www.freedesktop.org/software/systemd/man/systemd.path.html#){:target="_blank"}
 - `.timer`: a timer controlled and supervised by systemd, for timer-based 
 activation. Similar to a cron job, a matching unit will be started when the 
 timer is reached. 
-Ref: [systemd.timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html#)
+Ref: [systemd.timer](https://www.freedesktop.org/software/systemd/man/systemd.timer.html#){:target="_blank"}
 - `.slice`: a slice unit. A slice unit is a concept for hierarchically 
 managing resources of a group of processes. This management is performed by 
 creating a node in the Linux Control Group (cgroup) tree. 
-Ref: [systemd.slice](https://www.freedesktop.org/software/systemd/man/systemd.slice.html#)
+Ref: [systemd.slice](https://www.freedesktop.org/software/systemd/man/systemd.slice.html#){:target="_blank"}
 - `.scope`: a scope unit. Scopes units manage a set of system processes. Unlike 
 service units, scope units manage externally created processes, and do not 
 fork off processes on its own. 
-Ref: [systemd.scope](https://www.freedesktop.org/software/systemd/man/systemd.scope.html#)
+Ref: [systemd.scope](https://www.freedesktop.org/software/systemd/man/systemd.scope.html#){:target="_blank"}
 
 Many of these units are interconnected and work together to build a specific 
 functionality. If you are interested in understanding more about these types, 
@@ -236,7 +236,8 @@ please go through referenced man pages.
 
 ### Unit file syntax
 
-If you've worked with python's [ConfigParser](https://docs.python.org/3/library/configparser.html) 
+If you've worked with python's 
+[ConfigParser](https://docs.python.org/3/library/configparser.html){:target="_blank"} 
 you are familiar with configuration files that use `[Sections]` similar to 
 `.toml` or `.ini`. systemd's unit files also have sections, general directives, 
 and section specific directives.
@@ -260,7 +261,7 @@ enters the `failed` state
 enters the `inactive` state
 
 > See 
-[`man systemd.unit`](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#) 
+[`man systemd.unit`](https://www.freedesktop.org/software/systemd/man/systemd.unit.html#){:target="_blank"} 
 to get the full list of generic directives
 
 #### Service
@@ -277,7 +278,7 @@ active even when all its processes exited
 - `TimeoutStartSec=` - the time to wait for start-up
 
 > See 
-[`man systemd.service`](https://www.freedesktop.org/software/systemd/man/systemd.service.html#) 
+[`man systemd.service`](https://www.freedesktop.org/software/systemd/man/systemd.service.html#){:target="_blank"} 
 to get the full list of service directives
 
 #### Install
@@ -438,7 +439,7 @@ WantedBy=multi-user.target
 ```
 
 > If you're wondering why `/usr/bin/env python`, please see: 
-> [What is the difference between "#!/usr/bin/env bash" and "#!/usr/bin/bash"?](https://stackoverflow.com/questions/16365130/what-is-the-difference-between-usr-bin-env-bash-and-usr-bin-bash)
+> [What is the difference between "#!/usr/bin/env bash" and "#!/usr/bin/bash"?](https://stackoverflow.com/questions/16365130/what-is-the-difference-between-usr-bin-env-bash-and-usr-bin-bash){:target="_blank"}
 
 Now we can run it using `systemctl start simple_script.service` and check 
 the status:
@@ -462,8 +463,8 @@ The idea here is to create a `.timer` service that will trigger `.service`
 every X seconds.
 
 > Of course, the same can be done using the cron. However, there are differences: 
-[Cron vs systemd timers](https://unix.stackexchange.com/questions/278564/cron-vs-systemd-timers) 
-and [ArchWiki - systemd/Timers](https://wiki.archlinux.org/title/Systemd/Timers#As_a_cron_replacement)
+[Cron vs systemd timers](https://unix.stackexchange.com/questions/278564/cron-vs-systemd-timers){:target="_blank"} 
+and [ArchWiki - systemd/Timers](https://wiki.archlinux.org/title/Systemd/Timers#As_a_cron_replacement){:target="_blank"}
 
 Let's create a `timer_script.py`:
 
@@ -551,7 +552,7 @@ services.
 
 > If you are looking for a deep dive on this subject, please see this 
 awesome post: 
-[Simple vs Oneshot - Choosing a systemd Service Type](https://trstringer.com/simple-vs-oneshot-systemd-service/) 
+[Simple vs Oneshot - Choosing a systemd Service Type](https://trstringer.com/simple-vs-oneshot-systemd-service/){:target="_blank"} 
 
 A real life example would be to have a oneshot service that is started in 
 order to fetch and set some parameters before activating a new service that 
@@ -608,12 +609,12 @@ Jun 30 23:59:07 vladimir systemd[1]: Stopped Simple oneshot service.
 
 Another common example is managing a web application using systemd. Let's 
 say that we have a 
-[Flask](https://flask.palletsprojects.com/en/2.1.x/) or 
-[Django](https://www.djangoproject.com/) 
+[Flask](https://flask.palletsprojects.com/en/2.1.x/){:target="_blank"} or 
+[Django](https://www.djangoproject.com/){:target="_blank"} 
 application and we are running it using 
-[gunicorn](https://gunicorn.org/) or 
-[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/) and 
-[Nginx](https://www.nginx.com/) as a reverse proxy.
+[gunicorn](https://gunicorn.org/){:target="_blank"} or 
+[uWSGI](https://uwsgi-docs.readthedocs.io/en/latest/){:target="_blank"} and 
+[Nginx](https://www.nginx.com/){:target="_blank"} as a reverse proxy.
 
 We could create a simple service that starts gunicorn:
 
@@ -638,7 +639,7 @@ WantedBy=multi-user.target
 ```
 
 > If you are interested in the details, please see 
-[How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04)
+[How To Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-16-04){:target="_blank"}
 
 However, there is a more involved setup that uses systemd `.socket` service to 
 create a unix socket for incoming gunicorn requests. In this setup, systemd will 
@@ -650,7 +651,7 @@ socket and it will listen for messages in that socket. The final step is to
 configure Nginx to proxy the traffic to the `web_app.socket`.
 
 > To learn more please see 
-[Deploying Gunicorn - Systemd](https://docs.gunicorn.org/en/stable/deploy.html#systemd)
+[Deploying Gunicorn - Systemd](https://docs.gunicorn.org/en/stable/deploy.html#systemd){:target="_blank"}
 
 ## Final words
 
@@ -670,6 +671,6 @@ available.
 
 ## Resources
 
-- [Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
-- [systemd man pages](https://www.freedesktop.org/software/systemd/man/index.html)
-- [Red Hat - System Administrators Guide - Managing Services with systemd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd#doc-wrapper)
+- [Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files){:target="_blank"}
+- [systemd man pages](https://www.freedesktop.org/software/systemd/man/index.html){:target="_blank"}
+- [Red Hat - System Administrators Guide - Managing Services with systemd](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd#doc-wrapper){:target="_blank"}
