@@ -20,7 +20,7 @@ og_image: /assets/images/posts/semantic-search/similarity-header.jpg
     caption="<a href='https://www.sciencedirect.com/science/article/abs/pii/S0925231216306324' target='_blank'>Image Source</a>"
 %}
 
-# Introduction
+## Introduction
 
 This article is based on the work I did for a project that involved 
 millions of documents in different languages. The goal was to build a system 
@@ -49,7 +49,7 @@ high-dimensional vector representations
 <br>
 # The Big Picture
 
-## Seq2Seq
+### Seq2Seq
 
 We can look at the translation as a
 [sequence-to-sequence](https://en.wikipedia.org/wiki/Seq2seq){:target="_blank"} 
@@ -85,7 +85,7 @@ and requires less time to train.
 > If you would like to learn more about self-attention please see: 
 [Illustrated: Self-Attention](https://towardsdatascience.com/illustrated-self-attention-2d627e33b20a){:target="_blank"}.
 
-## The BERT Family
+### The BERT Family
 
 The BERT stands for ***B**idirectional **E**ncoder **R**epresentations from 
 **T**ransformers*, and is a language representation model based on Transformer 
@@ -136,9 +136,9 @@ What makes it so awesome is that it doesn't require `lang` tensor to understand
 which language is used since it's able to determine the correct language based 
 on input ids.
 
-## Approximate Nearest Neighbors
+### Approximate Nearest Neighbors
 
-### Basics
+#### Basics
 
 As amount of data grows each day and data applications struggle to be 
 responsive and efficient, some business requirements and data operations 
@@ -236,7 +236,7 @@ nearest centroids.
 %}
 
 
-### FAISS
+#### FAISS
 
 FAISS stands for _Facebook AI Similarity Search_ and is a C++ library (with 
 Python bindings) that implements efficient similarity search when the number 
@@ -309,7 +309,7 @@ similarity score.
 > - [Understanding FAISS...And the world of Similarity Searching](https://towardsdatascience.com/understanding-faiss-619bb6db2d1a){:target="_blank"}
 > - [Facebook AI Similarity Search (Faiss): The Missing Manual](https://www.pinecone.io/learn/faiss-tutorial/){:target="_blank"}
 
-# Examples
+## Examples
 
 Let's play around with these concepts using an open source library: 
 [sentence-transformers](https://github.com/UKPLab/sentence-transformers){:target="_blank"}, 
@@ -324,7 +324,7 @@ use [Poetry](https://python-poetry.org/docs/){:target="_blank"} or
 To install `sentence-transformers` you'll need `python >= 3.6`, 
 `PyTorch >= 1.6.0`, and `transformers >= v4.6.0`.
 
-## Computing Sentence Embeddings
+### Computing Sentence Embeddings
 
 To use pretrained models, specify the `model_name` parameter for 
 [`SentenceTransformer`](https://www.sbert.net/docs/package_reference/SentenceTransformer.html){:target="_blank"}. 
@@ -352,7 +352,7 @@ print(embeddings.shape)                 # (3, 768)
 
 We can see that we get 3 vectors with 768 dimensions, as we expected.
 
-## Semantic Search
+### Semantic Search
 
 Now that we know how to get the embeddings, let's choose a general purpose 
 model, for example `all-distilroberta-v1`, calculate embeddings and use 
@@ -396,7 +396,7 @@ The chic gangster liked to start the day with a pink scarf. (Score: 0.2459)
 Writing a list of random sentences is harder than I initially thought it would be. (Score: 0.1719)
 ```
 
-## Using FAISS
+### Using FAISS
 
 The `util.cos_sim(a[i], b[j])` computes the cosine similarity for all `i` and 
 `j` and we already know that this won't work if we have large amount of 
@@ -623,7 +623,7 @@ June EPE Buy-Resales
 Query with trade lists and spreadsheets, returns emails which topics revolve 
 around prices, Dow Jones, sales, etc, which is not surprising.
 
-## Simple System
+### Simple System
 
 Let's say that you want to implement semantic search in your application that 
 has the usual frontend and backend infrastructure. One of the ways to test 
@@ -670,7 +670,7 @@ If you would like to learn more about this and checkout the code, please see
 the sample project on my github: 
 [Semantic Search System](https://github.com/VladimirSiv/semantic-search-system){:target="_blank"}.
 
-# Final Words
+## Final Words
 
 My aim was to give a brief introduction to what happens behind a semantic search 
 system and how it works. Concepts are introduced at a very high level which, I 
@@ -687,7 +687,7 @@ please go through provided material and resources.
 If you have any questions or suggestions, please reach out, I'm always 
 available.
 
-# Resources
+## Resources
 
 - [How do Transformers Work in NLP? A Guide to the Latest State-of-the-Art Models](https://www.analyticsvidhya.com/blog/2019/06/understanding-transformers-nlp-state-of-the-art-models/){:target="_blank"}
 - [Comprehensive Guide To Approximate Nearest Neighbors Algorithms](https://towardsdatascience.com/comprehensive-guide-to-approximate-nearest-neighbors-algorithms-8b94f057d6b6){:target="_blank"}

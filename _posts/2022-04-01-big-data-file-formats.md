@@ -15,7 +15,7 @@ og_image: /assets/images/posts/big-data-file-formats/header.jpg
     caption="Image Source: <a href='https://www.pexels.com/' target='_blank'>Pexels</a>"
 %}
 
-# Introduction
+## Introduction
 
 As we all know, juggling data from one system 
 to another, transforming it through data pipelines, storing, and later 
@@ -49,7 +49,7 @@ their structure, when to use them, and what benefits they can have.
 
 <br/>
 
-# AVRO
+## AVRO
 
 As we all know, to transfer the data or store it, we need to serialize it 
 first. [Avro](https://avro.apache.org/docs/current/){:target="_blank"}
@@ -63,7 +63,7 @@ It uses JSON for defining data types and serializes data in a compact binary
 format. Additionally, Avro is a language-neutral data serialization system which 
 means that theoretically any language could use Avro.
 
-## Structure
+### Structure
 
 An Avro file consists of:
 - File header and
@@ -85,7 +85,7 @@ divided into:
 [Java implementation](https://avro.apache.org/docs/current/api/java/index.html){:target="_blank"}
 
 
-## Schema
+### Schema
 
 Schema can be defined as:
 - JSON string,
@@ -127,7 +127,7 @@ example:
  }
 ```
 
-## Why Avro?
+### Why Avro?
 
 - It is a very fast serialization/deserialization format, great for storing raw 
 data
@@ -142,7 +142,7 @@ easily retrieve the schema (no need for external metastores)
 
 <br/>
 
-# Parquet
+## Parquet
 
 Apache Parquet is a free and open-source column-oriented data storage format 
 and it began as a joint effort between Twitter and Cloudera. It's designed 
@@ -153,7 +153,7 @@ the column-oriented data allows you to focus on the relevant data very quickly.
 This means that the amount of data scanned is way smaller which results in 
 efficient I/O usage.
 
-## Structure
+### Structure
 
 Parquet file consists of 3 parts:
 
@@ -191,7 +191,7 @@ above, row groups have multiple columns called: _columnar chunks_. These chunks
 are further divided into _pages_. The pages store values for a particular 
 column and can be compressed as the values can repeat.
 
-## Schema
+### Schema
 
 Parquet supports schema evolution. For example, we can start with a simple 
 schema, and then add more columns as needed. By doing this, we end up with 
@@ -226,7 +226,7 @@ If you are interested in details regarding Logical Types and encodings, please s
 and
 [Parquet encoding definitions](https://github.com/apache/parquet-format/blob/2e23a1168f50e83cacbbf970259a947e430ebe3a/Encodings.md){:target="_blank"}.
 
-## Why Parquet?
+### Why Parquet?
 
 - When we are dealing with many columns but only want to query some of them - 
 Since Parquet is column-based it's great for analytics. As the business expands 
@@ -243,7 +243,7 @@ Amazon Redshift Spectrum, Google BigQuery, Google Dataproc etc
 
 <br/>
 
-# ORC
+## ORC
 
 Apache ORC (Optimized Row Columnar) is a free and open-source column-oriented 
 data storage format. It was first announced in February 2013 by Hortonworks in 
@@ -255,7 +255,7 @@ ORC provides a highly efficient way to store data using block-mode compression
 based on data types. It has great reading, writing, and processing performance 
 thanks to data skipping and indexing.
 
-## Structure
+### Structure
 
 ORC file format consists of:
 - Groups of row data called _stripes_
@@ -295,7 +295,7 @@ provide offsets that enable row-skipping within a stripe for fast reads.
 > If you are interested in more details about the ORC file format, please see: 
 [ORC Specification v1](https://orc.apache.org/specification/ORCv1/){:target="_blank"}
 
-## Schema
+### Schema
 
 Like Avro and Parquet, ORC also supports schema evolution. This allow us to 
 merge schema of multiple ORC files with different but mutually compatible 
@@ -336,7 +336,7 @@ The columns in the file would form the following tree:
     caption="ORC schema tree - <a href='https://orc.apache.org/docs/types.html' target='_blank'>Image Source</a>"
 %}
 
-## Why ORC?
+### Why ORC?
 
 - Really efficient compression - It saves a lot of storage space
 - Support for ACID transactions - [ACID Support](https://orc.apache.org/docs/acid.html){:target="_blank"}
@@ -346,7 +346,7 @@ number of columns and rows are read
 - Efficient and fast reads - Thanks to built-in indexes and column aggregates, 
 we can skip entire stripes and focus on the data we need 
 
-# Final Words
+## Final Words
 
 Understanding how big data file formats work helps us make the right decision 
 that will impact efficiency and scalability of our data applications. Each 
@@ -367,7 +367,7 @@ with additional features, and optimized for Async Prefetch, I/O mode management,
 and adaptive dictionary encoding. Ref: 
 [AliORC: A Combination of MaxCompute and Apache ORC](https://www.alibabacloud.com/blog/aliorc-a-combination-of-maxcompute-and-apache-orc_595359){:target="_blank"}
 
-# Resources
+## Resources
 
 - [Big Data File Formats](https://www.clairvoyant.ai/blog/big-data-file-formats){:target="_blank"}
 - [Performance comparison of different file formats and storage engines in the Hadoop ecosystem ](https://db-blog.web.cern.ch/blog/zbigniew-baranowski/2017-01-performance-comparison-different-file-formats-and-storage-engines){:target="_blank"}

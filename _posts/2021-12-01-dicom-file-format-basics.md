@@ -30,7 +30,7 @@ can be flattened, which is my goal.
 I personally know that this post will be of interest to certain people and I'd 
 like to encourage them to contribute and share their knowledge.
 
-# Introduction
+## Introduction
 
 For some odd reason you stumbled upon the DICOM Standard. Maybe at work, in a 
 conversation or somewhere else but you decided to google it and found out that 
@@ -60,7 +60,7 @@ In my opinion, the best starting point is to understand the file format and how
 it is used to represent medical images among other things. So, let's look at 
 some basic building block of DICOM file format.
 
-# DICOM file format
+## DICOM file format
 
 DICOM file can be used to represent many things: Single/Multi frame Images, 
 Structured Reports, Encapsulated PDF storage, Videos etc.
@@ -86,7 +86,7 @@ who it belongs to, device used for its creation etc, and of course the image
 itself. However, just like any other file format (PDF, Excel, Word ...) it has a 
 complex internal structure used for storing that information.
 
-## Structure
+### Structure
 
 DICOM file is comprised of a Header and a Data Set:
 
@@ -105,7 +105,7 @@ by the File Meta Elements which include elements such as the TransferSyntaxUID
 - Data Set is a collection of Data Elements. 
 
 
-## DICOM Element
+### DICOM Element
 
 If you look closely at the [MicroDicom preview image](#microdicom-preview) 
 from above, you'll see a list on the right hand side. 
@@ -152,7 +152,7 @@ Visually we can represent that as:
     caption="DICOM Element <a href='https://dicom.nema.org/medical/dicom/current/output/html/figures/PS3.5_7.1-1.svg' target='_blank'>Source</a>"
 %}
 
-### Tags
+#### Tags
 
 Every DICOM element has a Tag that uniquely indetifies the element and is 
 represented as: `(gggg,eeee)`, where `gggg` represents the Group Number and 
@@ -180,13 +180,13 @@ for example:
 **Information Object Definition** (IOD) and the Patient group to
 Patient **Module** - I'll explain how it works later.
 
-### Value Length
+#### Value Length
 
 Depending on VR, VL can be of defined or undefined lenght. If it's defined then 
 it's a 16 or 32-bit unsigned integer containing the explicit length of the 
 Value Field as the number of bytes that make up the Value.
 
-### Value Field
+#### Value Field
 
 Represents an even number of bytes containing the Value of the Data Element. 
 It's obvious that the data type of the stored Value depends on VR as explained 
@@ -200,7 +200,7 @@ within the VF.
 > To see VMs of tags defined in the DICOM Standard, please see: 
 [Registry of DICOM Data Elements](https://dicom.nema.org/medical/Dicom/current/output/chtml/part06/chapter_6.html){:target="_blank"}
 
-### Value Representation
+#### Value Representation
 
 VR is really important as it defines how the VF will be interpreted. The most 
 important thing to remember is that VR can be:
@@ -238,7 +238,7 @@ To mention some of them:
 | ...   | ...               |
 | ----- | ----------------- |
 
-### Public and Private
+#### Public and Private
 
 The DICOM Standard allows private data elements which don't belong to Standard 
 Data Elements i.e. are not defined in the Standard. This allows different 
@@ -258,7 +258,7 @@ have odd numbers.
 `(0007,xxxx)`, and `(FFFF,xxxx)` cannot be used. To learn more about 
 implemention of private tags please see: [Private Data Element Tags](https://dicom.nema.org/medical/dicom/current/output/html/part05.html#sect_7.8.1){:target="_blank"}
 
-### Type of elements
+#### Type of elements
 
 DICOM attributes may be required in a Data Set (depending on IOD or a SOP 
 class, we will define them later).
@@ -277,7 +277,7 @@ actual name i.e. value can be unknown at the moment of performing a scan.
 - **Type 2C**: Same as Type 2 but is required under certain conditions
 - **Type 3**: Optional tags
 
-### Nested Tags
+#### Nested Tags
 
 You can define nested tags in a DICOM Data Set, this is done using **Sequence 
 of Items** (SQ) VR as mentioned above. This allows you to define a tag that 
@@ -319,7 +319,7 @@ could depict it:
 If you would like to know more about encoding of nested data sets, please see: 
 [Nesting of Data Sets](https://dicom.nema.org/medical/dicom/current/output/html/part05.html#sect_7.5){:target="_blank"}
 
-## Transfer Syntax
+### Transfer Syntax
 
 We now know that we can have different types of tags and value representations, 
 also that they can be implicit or explicit. When dealing with objects in general 
@@ -368,7 +368,7 @@ Transfer Syntaxes are defines with UIDs:
 To get the full list of available Transfer Syntax UIDs, please see: 
 [Registry of DICOM Unique Identifiers](https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_A.html){:target="_blank"}
 
-## SOP Class
+### SOP Class
 
 When it comes to information objects in the DICOM Standard, there is a lot of 
 abstract definitions, and I just mentioned some of them like _Information 
@@ -441,7 +441,7 @@ Of course, there are other instances, for example: **StudyInstanceUID** -
 uniquely identifies a study, which can contain many series that are identified 
 using **SeriesInstanceUID** and so on...
 
-## Preamble Hack
+### Preamble Hack
 
 In 2019, a new hack surfaced and it used DICOM files to enable malware to 
 infect patient data. It used the Preamble to insert itself into DICOM files and 
@@ -462,7 +462,7 @@ of the malware.
 If you'd like to find out more about this hack, please read: 
 [HIPAA-Protected Malware? Exploiting DICOM Flaw to Embed Malware in CT/MRI Imagery](https://researchcylera.wpcomstaging.com/2019/04/16/pe-dicom-medical-malware/){:target="_blank"}
 
-# Final Words
+## Final Words
 
 If you are just starting out with the DICOM Standard it can be daunting when
 you look at the 
@@ -480,7 +480,7 @@ encourages you to dive deeper and research referenced material.
 If you have any questions or suggestions, please reach out, I'm always 
 available.
 
-# Resources
+## Resources
 
 - [DICOM Standard](https://www.dicomstandard.org/current){:target="_blank"} - Online DICOM 
 Standard, Current Edition

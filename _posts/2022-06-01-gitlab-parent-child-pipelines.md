@@ -15,7 +15,7 @@ og_image: /assets/images/posts/gitlab-parent-child-pipelines/header.jpg
     caption="Image Source: <a href='https://unsplash.com' target='_blank'>Unsplash</a>"
 %}
 
-# Introduction
+## Introduction
 
 As projects become larger and more complex, we face numerous challenges in 
 dealing with the CI/CD setup. Configuration files become large, readability 
@@ -36,7 +36,7 @@ Doing so gives you a playground where you can experiment without wasting
 compute time in the cloud. If you'd like to jump straight to a dynamic 
 setup, go to the [Dynamic Parent-Child Pipelines](#dynamic) section.
 
-# Local Setup
+## Local Setup
 
 There are [multiple ways](https://about.gitlab.com/install/) to set up 
 GitLab locally, but as always, when it comes 
@@ -48,7 +48,7 @@ The first one will give us the standard GitLab web application that we will run
 in the localhost, the second is a runner that we need to register in order to 
 run our local pipelines.
 
-## GitLab Community Edition
+### GitLab Community Edition
 
 First, let's start the GitLab application:
 
@@ -114,7 +114,7 @@ registration URL and token. This information can be found in the
     caption="Local GitLab Register Runners"
 %}
 
-## GitLab Local Runner
+### GitLab Local Runner
 
 Registration process requires communication between containers i.e the 
 GitLab application and a runner. When the docker starts, it will create a 
@@ -249,7 +249,7 @@ If you retry the failed `build-job`, it should succeed:
 
 Now that our runner works, we can proceed with building parent-child pipelines.
 
-# Parent-Child Pipelines
+## Parent-Child Pipelines
 
 In general, a single global pipeline can lead to all kinds of inefficiencies 
 that can introduce arbitrary wait times and clutter the CI/CD setup. Not to 
@@ -261,7 +261,7 @@ configure parent-child pipelines which allow us to:
 - Split configuration and make the whole setup more manageable
 - Define multiple pipelines that have different behaviors
 
-## Static
+### Static
 
 The simplest way of creating a parent-child pipeline is to use 
 [`trigger`](https://docs.gitlab.com/ee/ci/yaml/index.html#trigger) which allows 
@@ -270,7 +270,7 @@ or a child pipeline. In order to trigger a child pipeline we have to specify
 the configuration of the child pipeline using 
 [`include`](https://docs.gitlab.com/ee/ci/yaml/index.html#include).
 
-### Auto
+#### Auto
 
 To do this we will define `.gitlab-ci.yml` and `service_a.yml` to be:
 
@@ -312,7 +312,7 @@ In the UI that looks like:
     caption="Parent Child Trigger Include"
 %}
 
-### Manual
+#### Manual
 
 Let's say that we want to include `service_b` child pipeline but this time we 
 want to manually trigger the child pipeline. To do this we will need a new 
@@ -355,7 +355,7 @@ And when triggered:
     caption="Parent Child Manual Triggered"
 %}
 
-### Multiple
+#### Multiple
 
 Obviously our child pipeline can be the parent of a new child pipeline, so 
 let's add a new job `service_c` that will trigger a new child pipeline with one 
@@ -419,13 +419,13 @@ The pipeline now looks like:
     caption="Multiple Parent Child Triggers"
 %}
 
-## Dynamic
+### Dynamic
 
 Defining configuration files manually is tiresome and error prone. A better 
 way is to configure our pipelines in such a way that the configuration files 
 are generated on the fly.
 
-### Simple
+#### Simple
 
 The way we are going to approach this is to define three things:
 
@@ -526,7 +526,7 @@ script:
 The job script can fetch or generate arguments that are passed to 
 the child pipeline generator script, which makes it truly dynamic. 
 
-### Nested
+#### Nested
 
 Let's say that we want to build a pipeline that fetches the names of services 
 and for each service builds a dedicated pipeline that will build, test, and 
@@ -684,7 +684,7 @@ dedicated pipelines. Once activated, the rest of the setup looks like this:
     caption="Nested Dynamic Parent Child Pipeline"
 %}
 
-# Final Words
+## Final Words
  
 The focus of this article was to show you how we can use automation and 
 parent-child pipelines in order to: 
@@ -705,7 +705,7 @@ of course, depends on the project and its use case.
 I hope you enjoyed reading this article and, as always, feel free to reach 
 out to me if you have any questions or suggestions.
 
-# References
+## References
 
 - [How to setup GitLab CI locally?](https://medium.com/@pranay.urkude/how-to-setup-gitlab-ci-locally-a8bfe273ce60)
 - [GitLab Documentation - Parent-child Pipelines](https://docs.gitlab.com/ee/ci/pipelines/parent_child_pipelines.html)

@@ -15,7 +15,7 @@ og_image: /assets/images/posts/sagemaker-serverless-inference-byoc/header.jpg
     caption="Image Source: <a href='https://www.pexels.com/' target='_blank'>Pexels</a>"
 %}
 
-# Introduction
+## Introduction
 
 As we already know, SageMaker can do basically everything from creating, 
 training, deploying, and optimizing ML models. You can use built-in algorithms 
@@ -56,7 +56,7 @@ both.
 one model, if you are interested in a premade solution for hosting multi model 
 servers please see: [Amazon SageMaker Multi-Model Endpoints using your own algorithm container](https://sagemaker-examples.readthedocs.io/en/latest/advanced_functionality/multi_model_bring_your_own/multi_model_endpoint_bring_your_own.html){:target="_blank"}
 
-# Docker Image
+## Docker Image
 
 Behind the scenes SageMaker makes extensive use of Docker containers. All the 
 built-in algorithms and the supported deep learning frameworks used for 
@@ -196,9 +196,9 @@ docker push ${fullname}
 [`build_and_push.sh`](https://github.com/aws/amazon-sagemaker-examples/blob/main/advanced_functionality/scikit_bring_your_own/container/build_and_push.sh){:target="_blank"} that is 
 provided in the official AWS GitHub repository.
 
-# SageMaker
+## SageMaker
 
-## Boto3
+### Boto3
 
 Once we have the image in the ECR, we can create a SageMaker model. We will do 
 this using the
@@ -294,7 +294,7 @@ def invoke_endpoint():
     print(result)
 ```
 
-## CDK
+### CDK
 
 The same process of creating a model, an endpoint configuration, and deployment 
 of an endpoint can be achieved through a CDK application. 
@@ -464,7 +464,7 @@ ECR repository. To publish Docker images to an ECR repository in your
 control, please see 
 [cdk-ecr-deployment](https://github.com/cdklabs/cdk-ecr-deployment){:target="_blank"}.
 
-# Final Words
+## Final Words
 
 I hope that this article gave you a better understanding of how to implement a 
 custom model using the SageMaker and deploy it for the serverless inference. 
@@ -479,7 +479,7 @@ official AWS repository for
 If you have any questions or suggestions, please reach out, I'm always 
 available.
 
-# Resources
+## Resources
 
 - [AWS Docs - Using Docker containers with SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/docker-containers.html){:target="_blank"}
 - [AWS Docs - Use Your Own Inference Code with Hosting Services](https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms-inference-code.html){:target="_blank"}

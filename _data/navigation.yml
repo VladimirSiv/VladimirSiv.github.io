@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Cool Links"
+    url: /cool_links/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"

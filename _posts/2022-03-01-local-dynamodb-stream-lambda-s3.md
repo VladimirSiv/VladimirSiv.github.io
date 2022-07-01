@@ -15,7 +15,7 @@ og_image: /assets/images/posts/local-dynamodb-stream/header.jpg
     caption="Simple application"
 %}
 
-# Introduction
+## Introduction
 
 We'll explore how you can create a simple application that implements DynamoDB 
 Stream, Lambda function, and S3 in a local setup. The goal of this article 
@@ -42,7 +42,7 @@ two of them:
 - through code - AWS SDK for Python: 
 [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html){:target="_blank"}.
 
-## CLI
+### CLI
 
 Run the localstack docker image using:
 
@@ -330,7 +330,7 @@ aws s3api list-objects \
   --bucket test-bucket
 ```
 
-## Python
+### Python
 
 The same can be done through python code using boto3 service clients. First we 
 define environment variables, clients and helper functions:
@@ -563,7 +563,7 @@ The output should look like:
 
 which is what we expected.
 
-# Resources
+## Resources
 
 - [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 - [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)

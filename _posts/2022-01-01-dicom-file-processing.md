@@ -27,7 +27,7 @@ format works, please read
 > **Disclaimer**: Everything presented here is part of public knowledge and can 
 be found in referenced material.
 
-# Open Source Libraries
+## Open Source Libraries
 
 The following are some of the popular open source libraries for processing DICOM 
 files:
@@ -61,9 +61,9 @@ is no way I can cover all of them in this article. Therefore, we will focus only
 on the PixelMed, pydicom, some of GDCM tools, and switch between them to implement 
 different functionalities.
 
-# Setup
+## Setup
 
-## PixelMed
+### PixelMed
 
 PixelMed is written in Java, so you'll need Java 1.8 or higher. After you 
 install Java, go to [PixelMed Directory Tree](https://www.dclunie.com/pixelmed/software/index.html){:target="_blank"}, 
@@ -77,7 +77,7 @@ create a Java project and add `pixelmed.jar` to the project, see:
 
 PixelMed's API documentation can be found at [PixelMed JavaDocs](https://www.dclunie.com/pixelmed/software/javadoc/index.html){:target="_blank"}.
 
-## GDCM
+### GDCM
 
 Source code: [Grassroots DICOM](https://sourceforge.net/projects/gdcm/){:target="_blank"}. 
 
@@ -97,7 +97,7 @@ run `sudo ldconfig`. In order to have gdcm applications available in the
 terminal as commands you'll have to add `bin` to `$PATH` 
 (globally or in `~/.bash_profile`).
 
-## pydicom
+### pydicom
 
 This library requires python >= 3.6.1. I suggest you set up a virtual 
 environment where you can install packages using a dependency manager ([poetry](https://python-poetry.org/){:target="_blank"}, 
@@ -107,11 +107,11 @@ or any other).
 To get familiar with the library, please see: 
 [pydicom documentation](https://pydicom.github.io/pydicom/stable/){:target="_blank"}.
 
-# DICOM
+## DICOM
 
-## Exploring Structure
+### Exploring Structure
 
-### GDCM
+#### GDCM
 
 To explore the structure of a DICOM file, we can use `gdcmdump`:
 
@@ -160,7 +160,7 @@ represents: VL, VM, and Tag Name.
 `gdcmdump` comes with a lot of options that you can use to generate an output, 
 for more information please see: [gdcmdump](http://gdcm.sourceforge.net/html/gdcmdump.html){:target="_blank"}
 
-### PixelMed
+#### PixelMed
 
 The `AttributeList` class is a class in the PixelMed that maintains a list of 
 individual DICOM attributes. It could be used to get the structure of a file, 
@@ -214,12 +214,12 @@ we get:
 
 which gives the same output as `gdcmdump` but in a different format.
 
-## Remove Data Element
+### Remove Data Element
 
 Let's try to remove the _InstanceCreatorUID_ `(0008,0014)` from the Data Set and 
 save the DICOM object as a new file.
 
-### PixelMed
+#### PixelMed
 
 The `AttributeList` has a lot of options for manipulating Data Sets, 
 we can remove a whole group, all private tags, specific tag etc.
@@ -297,7 +297,7 @@ AttributeTag transferSyntaxTag = TagFromName.TransferSyntaxUID;
 AttributeTag transferSyntaxTag = DicomDictionary.StandardDictionary.getTagFromName("TransferSyntaxUID")
 ```
 
-### pydicom
+#### pydicom
 
 Let's do the same using the pydicom. To do this, we will use the `dcmread` to 
 read a DICOM file which returns a `FileDataset` instance that we can edit and 
@@ -313,9 +313,9 @@ if __name__ == "__main__":
     ds.save_as("test.dcm")
 ```
 
-## Modify/Add Data Element
+### Modify/Add Data Element
 
-### PixelMed
+#### PixelMed
 
 To modify/add a Data Element to the Data Set, we create an `AttributeList` 
 instance and an `Attribute` instance, then put the attribute to the list:
@@ -376,7 +376,7 @@ and the new file, we get exactly what we expect:
                -------------
 ```
 
-### pydicom
+#### pydicom
 
 To do the same in python:
 
@@ -408,13 +408,13 @@ VR, we can use the `dictionary_VR`:
 'DS'
 ```
 
-## Add Nested Data Element
+### Add Nested Data Element
 
 Let's add a private nested data element that contains two items which contain 
 the same private attributes but with different values. The process is the same 
 for the tags from the DICOM Standard. 
 
-### PixelMed
+#### PixelMed
 
 To add a nested tag using the PixelMed, we have to define a `SequenceAttribute`. 
 This attribute will contain Sequence Items which we create using the 
@@ -503,7 +503,7 @@ If we check the result with **gdcmdump**, we should see:
 
 which is what we wanted.
 
-### pydicom
+#### pydicom
 
 The same can be done using the pydicom, here we define a `seq` variable that is 
 just a list of `Dataset` instances, these data sets have the same meaning as 
@@ -538,7 +538,7 @@ if __name__ == "__main__":
 
 The result is the same as above.
 
-## Change Transfer Syntax
+### Change Transfer Syntax
 
 Let's first change Explicit to Implicit.
 
@@ -632,7 +632,7 @@ gdcmconv --jpeg -i <input-file> -o <output-file>
 If your input file was uncompressed, you should see a significant loss in 
 size of the output file. 
 
-## Create DICOM from an Image
+### Create DICOM from an Image
 
 Creating a DICOM file from an image can be really useful in many cases. 
 Especially, when it comes to testing:
@@ -687,7 +687,7 @@ elements, and tailor the file for your specific needs.
 To do the same using the pydicom, please see this thread: 
 [PNG to DICOM with pydicom](https://github.com/pydicom/pydicom/issues/939){:target="_blank"}
 
-## Blackout Image
+### Blackout Image
 
 In certain circumstances, we want to blackout certain parts of DICOM images. 
 This is usually done to remove the 
@@ -749,7 +749,7 @@ This will give us:
     caption="Blackout MicroDicom Preview"
 %}
 
-# Final Words
+## Final Words
 
 This article gives a brief introduction to basics of processing DICOM files 
 using some of the open source libraries.
