@@ -660,8 +660,7 @@ systemd defines units, differences between them, multiple options, and how to
 combine multiple units into a specific functionality can take some time and a 
 lot of *man-paging*[^1].
 
-[^1]: I'm pretty sure this word does not exist. Nevertheless, it's a perfect 
-opportunity for a wordplay with *man pages* and memory management - *paging* :D
+[^1]: I'm pretty sure this word does not exist. Nevertheless, it's a perfect opportunity for a wordplay with *man pages* and memory management - *paging* :D
 
 I hope this post gave a better understanding of how systemd works and a 
 starting point for defining new services.
