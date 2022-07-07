@@ -23,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "vladsiv"
 port                     : 4000
 host                     : "0.0.0.0"
-description              : "Blogging about things that interest me"
+description              : "A blog discussing topics around programming, data science/engineering, and cloud technologies."
 url                      : https://www.vladsiv.com
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

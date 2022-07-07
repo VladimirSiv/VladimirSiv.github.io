@@ -1,5 +1,6 @@
 ---
 title:  Cool Links
+page_title: Cool Links
 layout: single
 permalink: /cool-links/
 author_profile: false
