@@ -1,5 +1,6 @@
 ---
 title: "DICOM File Format Basics"
+page_title: "DICOM File Format Basics"
 excerpt: "Introduction to the DICOM file format"
 date: December 1, 2021
 toc: true

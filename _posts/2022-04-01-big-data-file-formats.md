@@ -1,5 +1,6 @@
 ---
 title: "Understanding Big Data File Formats"
+page_title: "Understanding Big Data File Formats"
 excerpt: "Exploring the structure of popular Big Data file formats"
 date: April 1, 2022
 toc: true

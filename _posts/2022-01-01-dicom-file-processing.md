@@ -1,5 +1,6 @@
 ---
 title: "DICOM File Processing"
+page_title: "DICOM File Processing"
 excerpt: "Using DICOM open source libraries to process DICOM files"
 date: January 1, 2022
 toc: true

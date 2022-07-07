@@ -1,12 +1,10 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "Cool Links"
-    url: /cool_links/
+    url: /cool-links/
+  - title: "Archive"
+    url: /archive/
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/

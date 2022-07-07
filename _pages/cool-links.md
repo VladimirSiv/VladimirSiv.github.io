@@ -1,12 +1,10 @@
 ---
-title:  false
+title:  Cool Links
 layout: single
-permalink: /cool_links/
+permalink: /cool-links/
 author_profile: false
 comments: false
 ---
-
-# Cool Links
 
 ## Blogs
 

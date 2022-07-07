@@ -1,5 +1,6 @@
 ---
 title: "Dynamic generation of multiple CI/CD parent-child pipelines using GitLab"
+page_title: "Dynamic parent-child pipelines"
 excerpt: "Setting up GitLab CI/CD locally and exploring ways of generating nested parent-child pipelines"
 date: June 1, 2022
 toc: true

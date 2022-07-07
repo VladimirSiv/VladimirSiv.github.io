@@ -1,5 +1,6 @@
 ---
 title: "Understanding systemd and creating Linux services"
+page_title: "Understanding systemd and creating Linux services"
 excerpt: "Learning about the basics of systemd, dependencies, unit files, 
 service configuration, and how to set up custom applications as systemd services"
 date: July 1, 2022
