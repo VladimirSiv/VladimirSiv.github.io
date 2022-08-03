@@ -14,6 +14,7 @@ Tech bloggers that I find fascinating and inspiring:
 - [Martin Kleppmann](https://martin.kleppmann.com/){:target="_blank"}
 - [Julia Evans](https://jvns.ca/){:target="_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="_blank"}
+- [Milan Curcic](https://milancurcic.com/){:target="_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="_blank"}
 - [Yagmur C. Tas](https://yagmurcetintas.com/){:target="_blank"}
 - [Thomas Stringer](https://trstringer.com/){:target="_blank"}
@@ -69,6 +70,7 @@ Random cool stuff
 
 - [Neocities](https://neocities.org/){:target="_blank"}
 - [Hackernews](https://news.ycombinator.com/){:target="_blank"}
+- [Lobsters](https://lobste.rs/){:target="_blank"}
 - [Indie Hackers](https://www.indiehackers.com/){:target="_blank"}
 - [Mechanical Watch](https://ciechanow.ski/mechanical-watch/){:target="_blank"}
 - [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/){:target="_blank"}
