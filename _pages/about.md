@@ -23,7 +23,7 @@ scientific research.
 I hope you will enjoy your stay and don't forget to grab 
 a :coffee: before you start reading!
 
-I am always available at <vladsiv@protonmail.com> :email:
+I am always available at vladsiv (@) protonmail (dot) com :email:
 
 ### About Me
 

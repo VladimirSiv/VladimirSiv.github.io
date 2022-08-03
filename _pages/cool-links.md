@@ -12,10 +12,16 @@ comments: false
 Tech bloggers that I find fascinating and inspiring:
 
 - [Martin Kleppmann](https://martin.kleppmann.com/){:target="_blank"}
+- [Julia Evans](https://jvns.ca/){:target="_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="_blank"}
 - [Yagmur C. Tas](https://yagmurcetintas.com/){:target="_blank"}
 - [Thomas Stringer](https://trstringer.com/){:target="_blank"}
+- [Daniel Estévez](https://destevez.net/){:target="_blank"}
+- [Dev.Poga](https://devpoga.org/){:target="_blank"}
+- [Michael Stapelberg](https://michael.stapelberg.ch/){:target="_blank"}
+- [Stefan-Marr.de](https://stefan-marr.de/){:target="_blank"}
+- [Francis Bach](https://francisbach.com/){:target="_blank"}
 
 ## Books
 
@@ -28,6 +34,10 @@ Tech-related books I've enjoyed
 - [How Linux Works, 3rd Edition: What Every Superuser Should Know](https://www.amazon.com/How-Linux-Works-Brian-Ward/dp/1718500408){:target="_blank"}
 - [Docker Deep Dive](https://www.oreilly.com/library/view/docker-deep-dive/9781800565135/){:target="_blank"}
 - [Algorithms and Data Structures for Massive Datasets](https://www.manning.com/books/algorithms-and-data-structures-for-massive-datasets){:target="_blank"}
+- [The Big Book of Data Engineering](https://databricks.com/p/ebook/the-big-book-of-data-engineering){:target="_blank"}
+- [Fundamentals of Data Engineering: Plan and Build Robust Data Systems](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302){:target="_blank"}
+- [Data Analysis with Python and PySpark](https://www.amazon.com/Analysis-Python-PySpark-Jonathan-Rioux/dp/1617297208){:target="_blank"}
+- [Advanced Analytics with PySpark](https://www.oreilly.com/library/view/advanced-analytics-with/9781098103644/){:target="_blank"}
 
 ## Data podcasts
 
@@ -59,5 +69,6 @@ Random cool stuff
 
 - [Neocities](https://neocities.org/){:target="_blank"}
 - [Hackernews](https://news.ycombinator.com/){:target="_blank"}
+- [Indie Hackers](https://www.indiehackers.com/){:target="_blank"}
 - [Mechanical Watch](https://ciechanow.ski/mechanical-watch/){:target="_blank"}
 - [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/){:target="_blank"}
