@@ -12,7 +12,7 @@ og_image: /assets/images/posts/coarrays-fortran/header.jpg
 
 {% include image.html
     src="/assets/images/posts/coarrays-fortran/header.jpg"
-    alt="similarity-header"
+    alt="fortran-coarray-header"
     caption="Image Source: <a href='https://www.pexels.com/' target='_blank'>Pexels</a>"
 %}
 
