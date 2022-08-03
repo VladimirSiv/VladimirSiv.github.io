@@ -68,9 +68,9 @@
 {% endif %}
 
 {% if page.og_image %}
-  <meta property="og:image" content="{{ page.og_image }}">
+  <meta property="og:image" content="{{ page.og_image | absolute_url }}">
 {% else %}
-  <meta property="og:image" content="{{ site.og_image }}">
+  <meta property="og:image" content="{{ site.og_image | absolute_url }}">
 {% endif %}
 
 {% if site.twitter.username %}
@@ -81,9 +81,9 @@
 
   <meta name="twitter:card" content="summary_large_image">
   {% if page.og_image %}
-    <meta name="twitter:image" content="{{ page.og_image }}">
+    <meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
   {% else %}
-    <meta name="twitter:image" content="{{ site.og_image }}">
+    <meta name="twitter:image" content="{{ site.og_image | absolute_url }}">
   {% endif %}
 
   {% if author_twitter %}
