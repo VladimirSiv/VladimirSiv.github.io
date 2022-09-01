@@ -39,12 +39,20 @@ Tech-related books I've enjoyed
 - [Fundamentals of Data Engineering: Plan and Build Robust Data Systems](https://www.amazon.com/Fundamentals-Data-Engineering-Robust-Systems/dp/1098108302){:target="_blank"}
 - [Data Analysis with Python and PySpark](https://www.amazon.com/Analysis-Python-PySpark-Jonathan-Rioux/dp/1617297208){:target="_blank"}
 - [Advanced Analytics with PySpark](https://www.oreilly.com/library/view/advanced-analytics-with/9781098103644/){:target="_blank"}
+- [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969){:target="_blank"}
+- [Parallel and High Performance Computing](https://www.amazon.com/Parallel-Performance-Computing-Robert-Robey/dp/1617296465){:target="_blank"}
+- [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/){:target="_blank"}
 
-## Data podcasts
+## Podcasts
 
 - [Data Brew](https://databricks.com/discover/data-brew){:target="_blank"}
   - S03E02 - [Data Culture Outside ‘The Valley’](https://databricks.com/discover/data-brew/s3-e2-data-culture-outside-the-valley){:target="_blank"}
 - [DataAware](https://www.ascend.io/dataaware-podcast/){:target="_blank"}
+- [Linux Action News](https://www.youtube.com/watch?v=6caj3BaaYdY&list=PLUW3LUwQvegxyaQeHQuMrDq94CT2ZZm9F)
+
+## Data Architecture
+
+- [How Discord Stores Billions of Messages](https://discord.com/blog/how-discord-stores-billions-of-messages){:target="_blank"}
 
 ## AWS Certification Resources
 
@@ -63,6 +71,10 @@ Some resources I've used to prepare for AWS exams
 - Machine Learning – Specialty:
   - [ML exam study guide](https://www.mlexam.com/){:target="_blank"}
   - [Udemy Course - AWS Certified Machine Learning Specialty 2022 - Hands On!](https://www.udemy.com/course/aws-machine-learning/){:target="_blank"}
+- Data Analytics - Specialty:
+  - [Udemy Course - AWS Certified Data Analytics Specialty](https://www.udemy.com/course/aws-data-analytics/){:target="_blank"}
+  - [Book - AWS Certified Data Analytics Study Guide with Online Labs: Specialty DAS-C01 Exam](https://www.amazon.com/dp/1119819458/ref=emc_b_5_t){:target="_blank"}
+  - [Practice Exams - Whizlabs: AWS Certified Data Analytics](https://www.whizlabs.com/aws-certified-data-analytics-specialty/){:target="_blank"}
 
 ## Misc
 
