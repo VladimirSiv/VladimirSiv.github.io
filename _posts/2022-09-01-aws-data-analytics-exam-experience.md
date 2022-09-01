@@ -51,7 +51,7 @@ a particular case
   - Table/Column-level permissions: 
   [Achieve finer-grained data security with column-level access control in Amazon Redshift](https://aws.amazon.com/blogs/big-data/achieve-finer-grained-data-security-with-column-level-access-control-in-amazon-redshift/){:target="_blank"}
   - [Snapshots](https://docs.aws.amazon.com/redshift/latest/mgmt/working-with-snapshots.html){:target="_blank"}
-- Emphasis was on difference between Real-Time, Near Real-Time, and Batch 
+- Emphasis was on the difference between Real-Time, Near Real-Time, and Batch 
 processing
 - Trick questions regarding Kinesis. I also had these on practice exams. They 
 usually revolve around:
@@ -65,7 +65,7 @@ usually revolve around:
   - Records out of order
   - Kinesis Producer Library batching and aggregation: [KPL Key Concepts](https://docs.aws.amazon.com/streams/latest/dev/kinesis-kpl-concepts.html){:target="_blank"}
   - `PutRecords` vs `PutRecord` when it comes to failed records: [PutRecords](https://docs.aws.amazon.com/kinesis/latest/APIReference/API_PutRecords.html){:target="_blank"}
-- Kinesis Analytics SQL vs Flink apps: check pointing, fault tolerance, 
+- Kinesis Analytics SQL vs Flink apps: checkpointing, fault tolerance, 
 parallel execution
 - Athena workgroups, cost usage limits - per-query control limits, 
 workgroup-wide control limit
@@ -89,7 +89,7 @@ Nice practice exam
 Someone recommended me this one, but I haven't had the time to check it out
 
 Of course, the AWS documentation should be your primary source of information, 
-but these courses and practices exams can help you pinpoint topics to focus on, 
+but these courses and practice exams can help you pinpoint topics to focus on, 
 since the AWS documentation can be quite overwhelming.
 
 ## Tips
