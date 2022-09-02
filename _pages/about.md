@@ -41,3 +41,9 @@ computational optimization, and high performance computing.
 
 In my spare time I enjoy taking walks, learning new languages, 
 drawing, and sometimes playing the guitar.
+
+### License
+
+All material on this site is licensed under 
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/){:target="_blank"}, 
+unless it is specified otherwise.

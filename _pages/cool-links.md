@@ -42,6 +42,7 @@ Tech-related books I've enjoyed
 - [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969){:target="_blank"}
 - [Parallel and High Performance Computing](https://www.amazon.com/Parallel-Performance-Computing-Robert-Robey/dp/1617296465){:target="_blank"}
 - [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/){:target="_blank"}
+- [Introducing MLOps](https://www.oreilly.com/library/view/introducing-mlops/9781492083283/){:target="_blank"}
 
 ## Podcasts
 
