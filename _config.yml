@@ -135,6 +135,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://rs.linkedin.com/in/vladimirsiv
+    - label: "HackerNews"
+      icon: "fab fa-fw fa-hacker-news"
+      url: https://news.ycombinator.com/user?id=vladsiv
 
 # Site Footer
 footer:

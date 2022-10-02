@@ -9,7 +9,7 @@ comments: false
 
 ## Blogs
 
-Tech bloggers that I find fascinating and inspiring:
+Tech bloggers that I find fascinating and inspiring
 
 - [Martin Kleppmann](https://martin.kleppmann.com/){:target="_blank"}
 - [Julia Evans](https://jvns.ca/){:target="_blank"}
@@ -54,6 +54,11 @@ Tech-related books I've enjoyed
 ## Data Architecture
 
 - [How Discord Stores Billions of Messages](https://discord.com/blog/how-discord-stores-billions-of-messages){:target="_blank"}
+- [How Netflix Keeps Its Data Infrastructure Cost-Effective](https://acceldataio.medium.com/data-engineering-best-practices-how-netflix-keeps-its-data-infrastructure-cost-effective-dee310bcc910){:target="_blank"}
+
+## Scientific Computing
+
+- [The History Of Numerical Analysis and Scientific Computing - Interviews](http://history.siam.org/){:target="_blank"}
 
 ## AWS Certification Resources
 
