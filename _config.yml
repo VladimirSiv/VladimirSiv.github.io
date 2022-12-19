@@ -33,7 +33,7 @@ masthead_title           : " " # overrides the website title displayed in the ma
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : 'disquis'
+  provider               : 'disqus'
   disqus:
     shortname            : 'vladsiv'
   discourse:
