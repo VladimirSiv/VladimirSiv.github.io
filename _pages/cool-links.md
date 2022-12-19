@@ -13,6 +13,7 @@ Tech bloggers that I find fascinating and inspiring
 
 - [Martin Kleppmann](https://martin.kleppmann.com/){:target="_blank"}
 - [Julia Evans](https://jvns.ca/){:target="_blank"}
+- [Julian Schrittwieser](https://www.furidamu.org/){:target="_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="_blank"}
 - [Milan Curcic](https://milancurcic.com/){:target="_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="_blank"}
@@ -59,6 +60,10 @@ Tech-related books I've enjoyed
 ## Scientific Computing
 
 - [The History Of Numerical Analysis and Scientific Computing - Interviews](http://history.siam.org/){:target="_blank"}
+
+## Programming
+
+- [Stop using utcnow and utcfromtimestamp](https://blog.ganssle.io/articles/2019/11/utcnow.html){:target="_blank"}
 
 ## AWS Certification Resources
 
