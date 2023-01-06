@@ -96,4 +96,3 @@ Random cool stuff
 - [Lobsters](https://lobste.rs/){:target="_blank"}
 - [Indie Hackers](https://www.indiehackers.com/){:target="_blank"}
 - [Mechanical Watch](https://ciechanow.ski/mechanical-watch/){:target="_blank"}
-- [Why You Should Start a Blog Right Now](https://guzey.com/personal/why-have-a-blog/){:target="_blank"}
