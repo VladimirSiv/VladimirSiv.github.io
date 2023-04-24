@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Cool Links"
     url: /cool-links/
+  - title: "Publications"
+    url: /publications/
   - title: "Archive"
     url: /archive/
   - title: "About"

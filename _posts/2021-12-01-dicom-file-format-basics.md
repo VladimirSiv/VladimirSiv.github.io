@@ -101,7 +101,7 @@ DICOM file is comprised of a Header and a Data Set:
 - Header, also known as DICOM File Meta Information, includes a preamble, 
 followed by 128 byte File Preamble, followed by 4 byte DICOM prefix, followed 
 by the File Meta Elements which include elements such as the TransferSyntaxUID 
-(which is every important for understanding the file format).
+(which is very important for understanding the file format).
 
 - Data Set is a collection of Data Elements. 
 
