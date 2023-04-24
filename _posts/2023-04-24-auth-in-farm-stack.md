@@ -484,7 +484,7 @@ open source library for
 dashboard applications. The complete code example is provided at 
 [marmelab/ra-in-memory-jwt](https://github.com/marmelab/ra-in-memory-jwt/tree/master/demo){:target="_blank"}.
 
-It was really interesting reading about this approach and understanding how 
+It was really interesting to read about this approach and understanding how 
 it works. However, as I already mentioned in the Introduction section, 
 implementing all of this for my personal project is maybe an overkill. 
 
