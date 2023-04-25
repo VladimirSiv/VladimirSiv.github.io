@@ -8,7 +8,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 last_modified_at: April 24, 2023
-og_image: /assets/images/posts/python-development-environment/header.jpg
+og_image: /assets/images/posts/auth-in-farm-stack/header.jpg
 ---
 
 {% include image.html
