@@ -49,10 +49,10 @@ easy access to well-structured data, not to mention resources for managing and
 running models for inference.
 
 Realizing that all of this can be a huge burden and a waste of time for researchers, 
-I've decided to create a personal project in collaboration with Multidisciplinary 
-Research Laboratory from Belgrade. The goal is to create a system that allows 
-scientists to automate numerical calculations and easily integrate ML models 
-for numerical predictions.
+I've decided to create a personal project in collaboration with a group 
+from the Institute for Multidisciplinary Research in Belgrade. The goal is to 
+create a system that allows scientists to automate numerical calculations and 
+easily integrate ML models for numerical predictions.
 
 This post gives an overview of the system, its features, and how it works. The 
 source code is not available for now. The idea is still in the progress and 
