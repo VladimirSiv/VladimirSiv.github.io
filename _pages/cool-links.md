@@ -15,6 +15,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Julia Evans](https://jvns.ca/){:target="_blank"}
 - [Julian Schrittwieser](https://www.furidamu.org/){:target="_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="_blank"}
+- [Ondřej Čertík](https://ondrejcertik.com/){:target="_blank"}
 - [Milan Curcic](https://milancurcic.com/){:target="_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="_blank"}
 - [Yagmur C. Tas](https://yagmurcetintas.com/){:target="_blank"}
