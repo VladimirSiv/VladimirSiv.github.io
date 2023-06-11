@@ -15,6 +15,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Julia Evans](https://jvns.ca/){:target="_blank"}
 - [Julian Schrittwieser](https://www.furidamu.org/){:target="_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="_blank"}
+- [Matthijs Cox](https://scientificcoder.com/){:target="_blank"}
 - [Ondřej Čertík](https://ondrejcertik.com/){:target="_blank"}
 - [Milan Curcic](https://milancurcic.com/){:target="_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="_blank"}
@@ -45,6 +46,7 @@ Tech-related books I've enjoyed
 - [Parallel and High Performance Computing](https://www.amazon.com/Parallel-Performance-Computing-Robert-Robey/dp/1617296465){:target="_blank"}
 - [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/){:target="_blank"}
 - [Introducing MLOps](https://www.oreilly.com/library/view/introducing-mlops/9781492083283/){:target="_blank"}
+- [Implementing MLOps in the Enterprise - PreOrder](https://www.oreilly.com/library/view/implementing-mlops-in/9781098136574/){:target="_blank"}
 
 ## Podcasts
 
@@ -97,3 +99,4 @@ Random cool stuff
 - [Lobsters](https://lobste.rs/){:target="_blank"}
 - [Indie Hackers](https://www.indiehackers.com/){:target="_blank"}
 - [Mechanical Watch](https://ciechanow.ski/mechanical-watch/){:target="_blank"}
+- [HalfBakery](http://halfbakery.com/){:target="_blank"}
