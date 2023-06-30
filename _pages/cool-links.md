@@ -47,6 +47,7 @@ Tech-related books I've enjoyed
 - [Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/){:target="_blank"}
 - [Introducing MLOps](https://www.oreilly.com/library/view/introducing-mlops/9781492083283/){:target="_blank"}
 - [Implementing MLOps in the Enterprise - PreOrder](https://www.oreilly.com/library/view/implementing-mlops-in/9781098136574/){:target="_blank"}
+- [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala-second-edition){:target="_blank"}
 
 ## Podcasts
 
