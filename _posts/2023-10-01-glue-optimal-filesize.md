@@ -400,6 +400,7 @@ The following equation can give us a rough estimate:
 <div class="formula">
     $${\Large\mathrm{targetNumPartitions} = \frac{is\;\mathrm{Gb} * 1000}{ts\;\mathrm{Mb}}}$$
 </div>
+<br>
 
 where `is` and `ts` are input and target size, respectively.
 
