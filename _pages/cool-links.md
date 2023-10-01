@@ -60,6 +60,7 @@ Tech-related books I've enjoyed
 
 - [How Discord Stores Billions of Messages](https://discord.com/blog/how-discord-stores-billions-of-messages){:target="_blank"}
 - [How Netflix Keeps Its Data Infrastructure Cost-Effective](https://acceldataio.medium.com/data-engineering-best-practices-how-netflix-keeps-its-data-infrastructure-cost-effective-dee310bcc910){:target="_blank"}
+- [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million){:target="_blank"}
 
 ## Scientific Computing
 
