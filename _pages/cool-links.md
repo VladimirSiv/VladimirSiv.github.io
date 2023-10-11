@@ -65,10 +65,7 @@ Tech-related books I've enjoyed
 ## Scientific Computing
 
 - [The History Of Numerical Analysis and Scientific Computing - Interviews](http://history.siam.org/){:target="_blank"}
-
-## Programming
-
-- [Stop using utcnow and utcfromtimestamp](https://blog.ganssle.io/articles/2019/11/utcnow.html){:target="_blank"}
+- [Scientific Computing - A Historical Perspective](https://link.springer.com/book/10.1007/978-3-319-69847-2){:target="_blank"}
 
 ## AWS Certification Resources
 
