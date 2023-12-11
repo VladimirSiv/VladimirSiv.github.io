@@ -138,6 +138,9 @@ author:
     - label: "HackerNews"
       icon: "fab fa-fw fa-hacker-news"
       url: https://news.ycombinator.com/user?id=vladsiv
+    - label: "RSS"
+      icon: "fab fa-fw fa-rss"
+      url: https://vladsiv.com/feed.xml
 
 # Site Footer
 footer:
