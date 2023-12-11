@@ -111,21 +111,9 @@ author:
   location         : "Belgrade, Serbia"
   email            : "vladsiv@protonmail.com"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/VladimirSiv
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: https://www.instagram.com/vlad__siv/
@@ -139,8 +127,8 @@ author:
       icon: "fab fa-fw fa-hacker-news"
       url: https://news.ycombinator.com/user?id=vladsiv
     - label: "RSS"
-      icon: "fab fa-fw fa-rss"
-      url: https://vladsiv.com/feed.xml
+      icon: "fa fa-fw fa-rss"
+      url: https://www.vladsiv.com/feed.xml
 
 # Site Footer
 footer:
