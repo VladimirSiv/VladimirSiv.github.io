@@ -93,10 +93,12 @@ Some resources I've used to prepare for AWS exams
 - Data Engineer - Associate:
   - [Udemy Course - AWS Certified Data Engineer Associate 2024](https://www.udemy.com/course/aws-data-engineer/){:target="\_blank"}
   - AWS whitepapers:
-    - [Build Modern Data Streaming Architectures on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-modern-data-streaming-analytics-architectures/build-modern-data-streaming-analytics-architectures.html?did=wp_card&trk=wp_card){:target="\_blank"}
-    - [AWS Glue Best Practices: Building a Performant and Cost Optimized Data Pipeline ](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-performant-data-pipeline/aws-glue-best-practices-build-performant-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
-    - [AWS Glue Best Practices: Building an Operationally Efficient Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-efficient-data-pipeline/aws-glue-best-practices-build-efficient-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
+    - [Build Modern Data Streaming Architectures on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-modern-data-streaming-analytics-architectures/build-modern-data-streaming-analytics-architectures.html){:target="\_blank"}
+    - [AWS Glue Best Practices: Building a Performant and Cost Optimized Data Pipeline ](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-performant-data-pipeline/aws-glue-best-practices-build-performant-data-pipeline.html){:target="\_blank"}
+    - [AWS Glue Best Practices: Building an Operationally Efficient Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-efficient-data-pipeline/aws-glue-best-practices-build-efficient-data-pipeline.html){:target="\_blank"}
     - [AWS Glue Best Practices: Building a Secure and Reliable Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-secure-data-pipeline/aws-glue-best-practices-build-secure-data-pipeline.html){:target="\_blank"}
+    - [Architectural Patterns to Build End-to-End Data Driven Applications on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-e2e-data-driven-applications/build-e2e-data-driven-applications.html){:target="\_blank"}
+    - [Big Data Analytics Options on AWS](https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/welcome.html){:target="\_blank"}
 
 ## Misc
 

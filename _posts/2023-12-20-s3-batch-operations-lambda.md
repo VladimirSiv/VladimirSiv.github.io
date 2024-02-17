@@ -2,7 +2,7 @@
 title: "S3 Batch Operations - Lambda"
 page_title: "S3 Batch Operations - Lambda"
 excerpt: "A brief guide outlining the process of setting up 
-and running S3 Batch Operations Jobs with Lambda integration"
+and running S3 Batch Operations Jobs with Lambda integration."
 date: December 20, 2023
 toc: true
 toc_label: "Content"

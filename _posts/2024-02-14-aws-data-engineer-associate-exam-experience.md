@@ -90,10 +90,12 @@ into the following three broad topics:
   the exam. Unfortunately, it wasn't available and adjusted to the exam during
   the Beta phase.
 - I've used the following AWS whitepapers in order to prepare for the exam:
-  - [Build Modern Data Streaming Architectures on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-modern-data-streaming-analytics-architectures/build-modern-data-streaming-analytics-architectures.html?did=wp_card&trk=wp_card){:target="\_blank"}
-  - [AWS Glue Best Practices: Building a Performant and Cost Optimized Data Pipeline ](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-performant-data-pipeline/aws-glue-best-practices-build-performant-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
-  - [AWS Glue Best Practices: Building an Operationally Efficient Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-efficient-data-pipeline/aws-glue-best-practices-build-efficient-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
+  - [Build Modern Data Streaming Architectures on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-modern-data-streaming-analytics-architectures/build-modern-data-streaming-analytics-architectures.html){:target="\_blank"}
+  - [AWS Glue Best Practices: Building a Performant and Cost Optimized Data Pipeline ](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-performant-data-pipeline/aws-glue-best-practices-build-performant-data-pipeline.html){:target="\_blank"}
+  - [AWS Glue Best Practices: Building an Operationally Efficient Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-efficient-data-pipeline/aws-glue-best-practices-build-efficient-data-pipeline.html){:target="\_blank"}
   - [AWS Glue Best Practices: Building a Secure and Reliable Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-secure-data-pipeline/aws-glue-best-practices-build-secure-data-pipeline.html){:target="\_blank"}
+  - [Architectural Patterns to Build End-to-End Data Driven Applications on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-e2e-data-driven-applications/build-e2e-data-driven-applications.html){:target="\_blank"}
+  - [Big Data Analytics Options on AWS](https://docs.aws.amazon.com/whitepapers/latest/big-data-analytics-options/welcome.html){:target="\_blank"}
 - Since I passed AWS Data Analytics Specialty, I've also used [Udemy Course - AWS Certified Data Analytics Specialty](https://www.udemy.com/course/aws-data-analytics/){:target="\_blank"} to quickly
   review topics requiring a slight refresher
 
