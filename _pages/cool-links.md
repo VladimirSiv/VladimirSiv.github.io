@@ -90,6 +90,13 @@ Some resources I've used to prepare for AWS exams
   - [Udemy Course - AWS Certified Data Analytics Specialty](https://www.udemy.com/course/aws-data-analytics/){:target="\_blank"}
   - [Book - AWS Certified Data Analytics Study Guide with Online Labs: Specialty DAS-C01 Exam](https://www.amazon.com/dp/1119819458/ref=emc_b_5_t){:target="\_blank"}
   - [Practice Exams - Whizlabs: AWS Certified Data Analytics](https://www.whizlabs.com/aws-certified-data-analytics-specialty/){:target="\_blank"}
+- Data Engineer - Associate:
+  - [Udemy Course - AWS Certified Data Engineer Associate 2024](https://www.udemy.com/course/aws-data-engineer/){:target="\_blank"}
+  - AWS whitepapers:
+    - [Build Modern Data Streaming Architectures on AWS](https://docs.aws.amazon.com/whitepapers/latest/build-modern-data-streaming-analytics-architectures/build-modern-data-streaming-analytics-architectures.html?did=wp_card&trk=wp_card){:target="\_blank"}
+    - [AWS Glue Best Practices: Building a Performant and Cost Optimized Data Pipeline ](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-performant-data-pipeline/aws-glue-best-practices-build-performant-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
+    - [AWS Glue Best Practices: Building an Operationally Efficient Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-efficient-data-pipeline/aws-glue-best-practices-build-efficient-data-pipeline.html?did=wp_card&trk=wp_card){:target="\_blank"}
+    - [AWS Glue Best Practices: Building a Secure and Reliable Data Pipeline](https://docs.aws.amazon.com/whitepapers/latest/aws-glue-best-practices-build-secure-data-pipeline/aws-glue-best-practices-build-secure-data-pipeline.html){:target="\_blank"}
 
 ## Misc
 
