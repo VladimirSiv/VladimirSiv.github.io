@@ -178,7 +178,7 @@ correct it ASAP.
     For example, if `columnA` could be an int or a string, the resolution is to 
     produce two columns named `columnA_int` and `columnA_string` in the resulting 
     DynamicFrame
-    - `cast` - Allows you to specify a type to cast to\
+    - `cast` - Allows you to specify a type to cast to
     - `make_struct` - Resolves a potential ambiguity by using a struct to 
     represent the data. For example, if data in a column could be an `int` or a 
     `string`, using the `make_struct` action produces a column of structures in 
