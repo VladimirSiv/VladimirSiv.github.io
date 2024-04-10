@@ -23,7 +23,7 @@ scientific research.
 I hope you will enjoy your stay and don't forget to grab 
 a :coffee: before you start reading!
 
-I am always available at vladsiv (@) protonmail (dot) com :email:
+I am always available at vladsiv (at) protonmail (dot) com :email:
 
 ### About Me
 
@@ -40,7 +40,7 @@ My interests range from machine learning, data engineering to
 computational optimization, and high performance computing.
 
 In my spare time I enjoy taking walks, learning new languages, 
-drawing, and sometimes playing the guitar.
+painting, and drawing.
 
 ### License
 

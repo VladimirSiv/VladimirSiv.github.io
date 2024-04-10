@@ -109,7 +109,7 @@ author:
   avatar           : "/assets/images/avatar.jpg"
   bio              : "Theoretical physicist & biophysicist interested in programming, data science/engineering, and cloud technologies - currently working as a Data Engineer."
   location         : "Belgrade, Serbia"
-  email            : "vladsiv@protonmail.com"
+  email            :
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -129,6 +129,9 @@ author:
     - label: "RSS"
       icon: "fa fa-fw fa-rss"
       url: https://www.vladsiv.com/feed.xml
+    - label: "Goodreads"
+      icon: "fab fa-fw fa-goodreads-g"
+      url: https://www.goodreads.com/user/show/115326882-vlad
 
 # Site Footer
 footer:
