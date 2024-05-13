@@ -46,7 +46,7 @@ into the following three broad topics:
 
 - **Data Extract**
   - Questions  regarding data ingestion across various scenarios: real-time, 
-    batch, and near real-time. This involves platforms such as S3, Kinesis, 
+    batch, and near real-time. This involves services such as S3, Kinesis, 
     Glue, Lambda, and others
   - Data migration in general - moving databases from on-premises to cloud, 
     different scenarios of how to get data from source to destination
@@ -67,9 +67,9 @@ into the following three broad topics:
   - I had questions related to deduplication, anonymization, anomaly detection
     in general, but also related to some services, example: Glue
 
-- **Data Loading**
+- **Data Load**
   - Numerous questions centered on selecting the optimal solution for 
-    different data storage requirements, considering platforms such as S3, 
+    different data storage requirements, considering services such as S3, 
     Redshift, Lake Formation, DynamoDB, and RDS, depending on the specific use 
     case
   - Exploring cross-stack queries i.e. querying across different services, 

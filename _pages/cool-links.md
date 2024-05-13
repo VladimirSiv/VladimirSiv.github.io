@@ -14,8 +14,10 @@ Tech bloggers that I find fascinating and inspiring
 - [Martin Kleppmann](https://martin.kleppmann.com/){:target="\_blank"}
 - [Julia Evans](https://jvns.ca/){:target="\_blank"}
 - [Julian Schrittwieser](https://www.furidamu.org/){:target="\_blank"}
+- [Julien Le Dem - The Sympathetic Ink Blog](https://sympathetic.ink/){:target="\_blank"}
+- [David Morgan-Mar](https://www.dangermouse.net/){:target="\_blank"}
 - [BeepBoop - Friendly Robot](https://beepb00p.xyz/){:target="\_blank"}
-- [Matthijs Cox](https://scientificcoder.com/){:target="\_blank"}
+- [Matthijs Cox - The Scientific Coder](https://scientificcoder.com/){:target="\_blank"}
 - [Ondřej Čertík](https://ondrejcertik.com/){:target="\_blank"}
 - [Milan Curcic](https://milancurcic.com/){:target="\_blank"}
 - [Shen Hong](https://shen.hong.io/){:target="\_blank"}
@@ -24,7 +26,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Daniel Estévez](https://destevez.net/){:target="\_blank"}
 - [Dev.Poga](https://devpoga.org/){:target="\_blank"}
 - [Michael Stapelberg](https://michael.stapelberg.ch/){:target="\_blank"}
-- [Stefan-Marr.de](https://stefan-marr.de/){:target="\_blank"}
+- [Stefan Marr](https://stefan-marr.de/){:target="\_blank"}
 - [Francis Bach](https://francisbach.com/){:target="\_blank"}
 - [David Gomes](https://davidgomes.com/){:target="\_blank"}
 
@@ -49,6 +51,8 @@ Tech-related books I've enjoyed
 - [Introducing MLOps](https://www.oreilly.com/library/view/introducing-mlops/9781492083283/){:target="\_blank"}
 - [Implementing MLOps in the Enterprise - PreOrder](https://www.oreilly.com/library/view/implementing-mlops-in/9781098136574/){:target="\_blank"}
 - [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala-second-edition){:target="\_blank"}
+- [Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures](https://www.amazon.com/Software-Architecture-Trade-Off-Distributed-Architectures/dp/1492086894){:target="\_blank"}
+- [Database Internals: A Deep Dive into How Distributed Data Systems Work](https://www.amazon.com/Database-Internals-Deep-Distributed-Systems/dp/1492040347){:target="\_blank"}
 
 ## Podcasts
 
