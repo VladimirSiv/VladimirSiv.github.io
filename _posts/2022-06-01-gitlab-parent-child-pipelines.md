@@ -6,7 +6,7 @@ date: June 1, 2022
 toc: true
 toc_label: "Content"
 toc_sticky: true
-last_modified_at: June 1, 2022
+last_modified_at: May 20, 2024
 og_image: /assets/images/posts/gitlab-parent-child-pipelines/header.jpg
 --- 
 
@@ -546,8 +546,7 @@ stages:
  - trigger-services
 
 build-job:
-  stage: buildchild pipelines for each 
-service:
+  stage: build
   script:
     - echo "Hello, $GITLAB_USER_LOGIN!"
 
