@@ -1,7 +1,9 @@
 ---
 title: "DICOM File Format Basics"
 page_title: "DICOM File Format Basics"
-excerpt: "Introduction to the DICOM file format"
+excerpt: "Explore the fundamentals of the DICOM file format! This quick 
+introduction covers the basics of DICOM's structure, its essential uses, and 
+tips for easily navigating its complex and abstract components."
 date: December 1, 2021
 toc: true
 toc_label: "Content"

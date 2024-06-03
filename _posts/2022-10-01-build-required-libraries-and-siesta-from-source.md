@@ -1,9 +1,10 @@
 ---
 title: "Building OpenMPI, BLAS, LAPACK, ScaLAPACK, NetCDF, Flook, and SIESTA"
 page_title: "Building SIESTA and required libraries from source "
-excerpt: "Understanding libraries and building OpenMPI, BLAS, LAPACK, 
-ScaLAPACK, NetCDF, Flook, and SIESTA with TBTrans and other utilities 
-from source."
+excerpt: "Gain insight into libraries and compile OpenMPI, BLAS, LAPACK, 
+ScaLAPACK, NetCDF, Flook, SIESTA, and other utilities from source. Understand 
+the process of building these libraries to customize your environment 
+effectively."
 date: October 2, 2022
 toc: true
 toc_label: "Content"

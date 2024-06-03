@@ -1,8 +1,9 @@
 ---
 title: "Local Python Development Environment"
 page_title: "Local Python Development Environment"
-excerpt: "A guide explaining how to set up your local machine for Python projects and 
-overview of most common tools used during development"
+excerpt: "Discover a comprehensive guide on configuring your local machine 
+for Python projects. This guide provides an overview of the most commonly 
+used tools throughout the development process."
 date: December 18, 2022
 toc: true
 toc_label: "Content"

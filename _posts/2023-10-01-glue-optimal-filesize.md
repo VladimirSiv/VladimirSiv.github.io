@@ -1,8 +1,11 @@
 ---
 title: "Fine-Tuning Glue Export File Size for Athena Queries"
 page_title: "Fine-Tuning Glue Export File Size for Athena Queries"
-excerpt: "Exploring ways of configuring AWS Glue output file size and merging small files 
-in post-processing stage for efficient Athena queries."
+excerpt: "Exploring different strategies for fine-tuning the output file size 
+in AWS Glue and consolidating small files during post-processing. By 
+implementing these techniques, you'll not only enhance the efficiency of 
+Athena queries but also significantly reduce the cost associated with 
+querying large datasets."
 date: October 1, 2023
 toc: true
 toc_label: "Content"

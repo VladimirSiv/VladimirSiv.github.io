@@ -1,7 +1,9 @@
 ---
 title: "AWS Data Analytics Specialty Exam Experience and Study Notes"
 page_title: "AWS Data Analytics Exam Experience"
-excerpt: "Sharing my AWS Data Analytics Specialty exam experience, resources, tricks and tips, study notes etc."
+excerpt: "Sharing my experience, resources, tricks, and study notes from my 
+AWS Data Analytics Specialty exam. I hope this post will give you some 
+insights and help you find resources to prepare for the exam."
 date: September 1, 2022
 toc: true
 toc_label: "Content"

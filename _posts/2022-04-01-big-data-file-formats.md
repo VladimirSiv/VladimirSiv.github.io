@@ -1,7 +1,9 @@
 ---
 title: "Understanding Big Data File Formats"
 page_title: "Understanding Big Data File Formats"
-excerpt: "Exploring the structure of popular Big Data file formats"
+excerpt: "Dive into the structure of popular Big Data file formats like 
+Parquet, Avro, and ORC. Understand their unique features and advantages. 
+Learn how these formats optimize data storage and processing."
 date: April 1, 2022
 toc: true
 toc_label: "Content"

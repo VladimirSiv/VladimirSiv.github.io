@@ -1,7 +1,10 @@
 ---
 title: "DICOM File Processing"
 page_title: "DICOM File Processing"
-excerpt: "Using DICOM open source libraries to process DICOM files"
+excerpt: "Discover how to handle and process DICOM files. Explore popular free 
+and open-source libraries that can help you develop applications for efficient 
+DICOM processing. These tools and libraries make managing medical images much 
+easier and straightforward."
 date: January 1, 2022
 toc: true
 toc_label: "Content"

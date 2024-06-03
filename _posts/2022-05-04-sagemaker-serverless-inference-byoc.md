@@ -1,7 +1,10 @@
 ---
 title: "SageMaker Serverless Inference using BYOC"
 page_title: "SageMaker Serverless Inference using BYOC"
-excerpt: "Methods of deploying custom models inside Docker images using the SageMaker and serverless inference"
+excerpt: "Discover techniques for deploying custom models within Docker 
+images using SageMaker and serverless inference. Explore the functionalities 
+and benefits of each approach. Learn how to efficiently deploy your models for 
+scalable and efficient inference."
 date: May 4, 2022
 toc: true
 toc_label: "Content"

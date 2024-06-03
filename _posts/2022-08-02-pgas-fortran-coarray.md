@@ -1,7 +1,9 @@
 ---
 title: "PGAS and Coarray Fortran"
 page_title: "PGAS and Coarray Fortran"
-excerpt: "Exploring PGAS paradigm and playing around with coarrays in Fortran"
+excerpt: "Exploring the PGAS paradigm and experimenting with coarrays in 
+Fortran. Learning about the principles behind PGAS, Fortran coarrays and its 
+applications in parallel programming. "
 date: August 2, 2022
 toc: true
 toc_label: "Content"

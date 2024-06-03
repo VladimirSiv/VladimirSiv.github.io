@@ -1,8 +1,10 @@
 ---
 title: "Authentication and Authorization in FARM Stack using JWT"
 page_title: "Authn and Authz in FARM Stack using JWT"
-excerpt: "Implementing authentication in FARM stack - FastAPI, React, 
-and MongoDB - Using JSON Web Token (JWT)."
+excerpt: "Discover the fundamentals of JWT authentication and its advantages 
+within distributed systems and microservice architectures. Explore the 
+integration of authentication into the FARM stack, consisting of FastAPI, 
+React, and MongoDB, utilizing JSON Web Tokens (JWT)."
 date: April 24, 2023
 toc: true
 toc_label: "Content"

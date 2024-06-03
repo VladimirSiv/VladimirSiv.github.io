@@ -1,7 +1,11 @@
 ---
 title: "Personal Project - Automating numerical calculations and implementing ML models"
 page_title: "Personal Project - Automating numerical calculations"
-excerpt: "The goal of this project is to create a system that allows scientists to automate numerical calculations and easily integrate ML models for numerical predictions"
+excerpt: "The objective of this project is to develop a system enabling 
+scientists to automate numerical calculations on remote clusters and build 
+an internal database of calculation outcomes. It also involves training 
+machine learning models on these calculations and seamlessly integrating them 
+for numerical predictions."
 date: May 20, 2023
 toc: true
 toc_label: "Content"

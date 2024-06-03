@@ -29,6 +29,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Stefan Marr](https://stefan-marr.de/){:target="\_blank"}
 - [Francis Bach](https://francisbach.com/){:target="\_blank"}
 - [David Gomes](https://davidgomes.com/){:target="\_blank"}
+- [Daniel Holden](https://theorangeduck.com){:target="\_blank"}
 
 ## Books
 

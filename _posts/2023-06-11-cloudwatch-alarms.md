@@ -1,7 +1,11 @@
 ---
 title: "Exploring AWS CloudWatch Alarms"
 page_title: "Exploring AWS CloudWatch Alarms"
-excerpt: "Exploring how AWS CloudWatch alarms work, how to define them in a CDK application, and how to work with periods, evaluation ranges, and missing data."
+excerpt: "Exploring the functionality of AWS CloudWatch alarms, understanding 
+their operation, configuration, and practical application within CDK 
+applications. Learn to define and customize alarms, including adjusting 
+periods, evaluation ranges, and handling missing data, to ensure robust 
+monitoring and effective response mechanisms."
 date: June 11, 2023
 toc: true
 toc_label: "Content"

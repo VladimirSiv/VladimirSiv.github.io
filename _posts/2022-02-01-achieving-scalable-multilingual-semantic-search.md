@@ -1,8 +1,10 @@
 ---
 title: "Achieving Scalable Multilingual Semantic Search"
 page_title: "Achieving Scalable Multilingual Semantic Search"
-excerpt: "Basics of seq2seq architecture, ANNs, multilingual model, 
-and how to use them to achieve scalable multilingual semantic search"
+excerpt: "Understand the basics of seq2seq architecture and artificial neural 
+networks (ANNs). Learn about multilingual models and their applications. 
+Discover how to use these technologies to achieve scalable multilingual 
+semantic search."
 date: February 1, 2022
 toc: true
 toc_label: "Content"
