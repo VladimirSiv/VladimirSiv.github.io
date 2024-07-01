@@ -525,7 +525,7 @@ The input format for `schema_name` is
 `<name_of_the_file>.<name_of_the_schema_class>`.
 
 The file is stored under `SCHEMA_PATH` which can be defined in `pyproject.toml`
-or `.pytransflowrc`, but defaults to `<project root>/schema`.
+or `.pytransflowrc`, but defaults to `<project root>/schemas`.
 
 > For more information about configuring `SCHEMA_PATH`, please see
 > [Global Configuration](#global-configuration)
@@ -746,9 +746,9 @@ transformations:
 Additional options include:
 - `batch` - Batch size i.e. number of records in a batch. If not specified,
   size of a batch will be equal to number of input records divided by number
-  of available cores. Defaults to `None`.
+  of available cores.
 - `cores` - Number of cores, if not specified it will take the number of
-  available cores in the system. Defaults to `None`.
+  available cores in the system.
 
 For example:
 
