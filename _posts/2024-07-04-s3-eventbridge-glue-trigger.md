@@ -15,7 +15,7 @@ og_image: /assets/images/posts/s3-eventbridge-glue-trigger/header.jpg
 ---
 
 {% include image.html
-    src="/assets/images/posts/s3-event-bridgeglue-trigger/header.jpg"
+    src="/assets/images/posts/s3-eventbridge-glue-trigger/header.jpg"
     alt="s3-eventbridge-glue-trigger"
     caption="Image Source: <a href='https://www.pexels.com/' target='_blank'>Pexels</a>"
 %}
