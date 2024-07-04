@@ -1,5 +1,5 @@
 ---
-title: "Handle Irregular Bursts of files using EventBridge and Glue Workflow"
+title: "Handle Irregular Bursts of Files using EventBridge and Glue Workflow"
 page_title: "S3 Notification EventBridge Glue Workflow Trigger"
 excerpt: "Exploring ways of handling irregular and sudden bursts of
 multiple files for data processing using event driven architecture on AWS.
@@ -86,7 +86,7 @@ The process unfolds as follows:
 The most important part of this logic is located in the Glue Trigger. This
 trigger is of type `EVENT` and it's using
 [EventBatchCondition](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api-jobs-trigger.html#aws-glue-api-jobs-trigger-EventBatchingCondition){:target="\_blank"}
-structure which defines two condition that must be met before the trigger
+structure which defines two conditions that must be met before the trigger
 fires:
 - `BatchSize` - Specified number of events received. For example 10 files
 - `BatchWindow` - Batch time window after which the trigger fires. For example,
@@ -117,7 +117,7 @@ and design of the workflow for concurrent execution.
 
 ## Infrastructure as Code
 
-This section will explain how we can implement this data solution in
+This section expains how we can implement this data solution in
 infrastructure as code fashion using AWS CDK. The full code can be found in my
 GitHub repository
 [aws-examples](https://github.com/VladimirSiv/aws-examples){:target="\_blank"}
