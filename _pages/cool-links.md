@@ -30,6 +30,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Francis Bach](https://francisbach.com/){:target="\_blank"}
 - [David Gomes](https://davidgomes.com/){:target="\_blank"}
 - [Daniel Holden](https://theorangeduck.com){:target="\_blank"}
+- [Simon Willison’s Weblog](https://simonwillison.net/){:target="\_blank"}
 
 ## Books
 
@@ -52,8 +53,10 @@ Tech-related books I've enjoyed
 - [Introducing MLOps](https://www.oreilly.com/library/view/introducing-mlops/9781492083283/){:target="\_blank"}
 - [Implementing MLOps in the Enterprise - PreOrder](https://www.oreilly.com/library/view/implementing-mlops-in/9781098136574/){:target="\_blank"}
 - [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala-second-edition){:target="\_blank"}
+- [Fundamentals of Software Architecture: An Engineering Approach](https://www.oreilly.com/library/view/fundamentals-of-software/9781663728357/){:target="\_blank"}
 - [Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures](https://www.amazon.com/Software-Architecture-Trade-Off-Distributed-Architectures/dp/1492086894){:target="\_blank"}
 - [Database Internals: A Deep Dive into How Distributed Data Systems Work](https://www.amazon.com/Database-Internals-Deep-Distributed-Systems/dp/1492040347){:target="\_blank"}
+- [Deciphering Data Architectures](https://www.oreilly.com/library/view/deciphering-data-architectures/9781098150754/){:target="\_blank"}
 
 ## Podcasts
 
@@ -68,6 +71,7 @@ Tech-related books I've enjoyed
 - [How Netflix Keeps Its Data Infrastructure Cost-Effective](https://acceldataio.medium.com/data-engineering-best-practices-how-netflix-keeps-its-data-infrastructure-cost-effective-dee310bcc910){:target="\_blank"}
 - [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million){:target="\_blank"}
 - [Maximizing Scalability - Apache Kafka and OpenTelemetry](https://signoz.io/blog/maximizing-scalability-apache-kafka-and-opentelemetry/){:target="\_blank"}
+- [How Discord Uses Open-Source Tools for Scalable Data Orchestration & Transformation](https://discord.com/blog/how-discord-uses-open-source-tools-for-scalable-data-orchestration-transformation){:target="\_blank"}
 
 ## Scientific Computing
 
