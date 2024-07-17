@@ -311,3 +311,6 @@ defaults:
       comments: true
       share: false
       related: false
+
+after_footer_scripts:
+  - assets/js/clipboardcopy.js
