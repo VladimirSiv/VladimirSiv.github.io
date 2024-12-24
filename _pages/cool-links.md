@@ -58,6 +58,7 @@ Tech-related books I've enjoyed
 - [Software Architecture: The Hard Parts: Modern Trade-Off Analyses for Distributed Architectures](https://www.amazon.com/Software-Architecture-Trade-Off-Distributed-Architectures/dp/1492086894){:target="\_blank"}
 - [Database Internals: A Deep Dive into How Distributed Data Systems Work](https://www.amazon.com/Database-Internals-Deep-Distributed-Systems/dp/1492040347){:target="\_blank"}
 - [Deciphering Data Architectures](https://www.oreilly.com/library/view/deciphering-data-architectures/9781098150754/){:target="\_blank"}
+- [Databricks Data Intelligence Platform: Unlocking the GenAI Revolution](https://www.amazon.com/Databricks-Data-Intelligence-Platform-Revolution/dp/B0D3KS8P2C){:target="\_blank"}
 
 ## Podcasts
 
