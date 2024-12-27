@@ -48,13 +48,13 @@ I wish you all the best on the exam and I'm sure you'll do great! 🥳 🎉
   queries, and optimization strategy  
 - Select the best LLM based on the attributes of the application to be developed  
 - Choose best evaluation metric based on the particular use case  
-- Select the appropriate LLM model for a given task \- for example Q\&A or
+- Select the appropriate LLM model for a given task - for example Q\&A or
   Code generation  
-- Depending on the customer needs \- latency, accuracy, reliability etc select
+- Depending on the customer needs - latency, accuracy, reliability etc select
   appropriate model configuration  
-- Select method of regulating final responses \- think about harmful language,
+- Select method of regulating final responses - think about harmful language,
   toxicity etc  
-- How to achieve certain output from an LLM \- usually by providing few-shots
+- How to achieve certain output from an LLM - usually by providing few-shots
   i.e. some examples, or adding system prompts
 
 ## Concepts
@@ -108,16 +108,16 @@ filtering. Set this value to 1 to make outputs deterministic.
 **Chunk Overlap** - Defines the amount of overlap between consecutive chunks,
 ensuring that no contextual information is lost between chunks.
 
-**Window summarization** \- is a context-enriching chunking method where each
+**Window summarization** - is a context-enriching chunking method where each
 chunk includes a “windowed summary” of the previous few chunks.
 
-**Hierarchical Navigable Small Words** \- HNSW \- builds proximity graph based
+**Hierarchical Navigable Small Words** - HNSW - builds proximity graph based
 on Euclidean L2 distance
 
-**LLM-as-a-judge** \- is an evaluation method where you use LLMs to evaluate
+**LLM-as-a-judge** - is an evaluation method where you use LLMs to evaluate
 the outputs. It’s a scalable alternative to the human evaluation.
 
-**LangChain** \- a software framework designed to help create GenAI apps that
+**LangChain** - a software framework designed to help create GenAI apps that
 utilize LLMs. Enables apps to be context-aware, reason, and interact
 dynamically with various data sources and environments. Includes components
 for building chains and agents, integrations with other tools, and off-the-shelf
@@ -136,9 +136,9 @@ trained using next-token prediction. It uses a fine-grained mixture-of-experts
 (MoE) architecture with 132B total parameters of which 36B parameters are
 active on any input. It was pretrained on 12T tokens of text and code data.  
 - Two flavors  
-  - DBRX BASE \- pretrained model, it functions like a smart autocomplete,
+  - DBRX BASE - pretrained model, it functions like a smart autocomplete,
   useful for further fine-tuning on your data  
-  - DBRX INSTRUCT \- fine-tuned model, designed to answer questions and
+  - DBRX INSTRUCT - finetuned model, designed to answer questions and
   follow instructions  
 - [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm){:target="\_blank"}
 
@@ -377,13 +377,13 @@ Evaluating
 - Looking at the model’s confidence in the predicted word  
 - A sharp peak in the language model’s probability distribution reflects a low
 perplexity  
-- Low Perplexity \= High Accuracy
+- Low Perplexity = High Accuracy
 
 #### Toxicity
 
 - We can compute toxicity to measure the harmfulness  
 - It’s used to identify and flag harmful, offensive, or inappropriate language  
-- Low Toxicity \= Low Harm  
+- Low Toxicity = Low Harm
 - Uses a pretrained hate speech classification model
 
 #### BLUE
@@ -623,8 +623,6 @@ from databricks.sdk import WorkspaceClient
 from databricks.sdk.service.serving import EndpointCoreConfigInput, ServedEntityInput
 
 workspace = WorkspaceClient()
-
-# Create endpoint
 endpoint_name = "fse-location"
 
 workspace.serving_endpoints.create_and_wait(
