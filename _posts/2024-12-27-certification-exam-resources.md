@@ -98,9 +98,9 @@ comprehensive and useful as possible!
 - [Practice Exams - Whizlabs: AWS Certified Data Analytics](https://www.whizlabs.com/aws-certified-data-analytics-specialty/){:target="\_blank"}
 - AWS Whitepapers:
     - [Enterprise Data Governance Catalog](https://docs.aws.amazon.com/whitepapers/latest/enterprise-data-governance-catalog/enterprise-data-governance-catalog.html){:target="\_blank"}
-    - [Storage Best Practices for Data and Analytics Applications](https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/building-data-lake-aws.html?did=wp_card&trk=wp_card){:target="\_blank"}
-    - [Streaming Data Solutions on AWS](https://docs.aws.amazon.com/whitepapers/latest/streaming-data-solutions-amazon-kinesis/welcome.html?did=wp_card&trk=wp_card){:target="\_blank"}
-    - [Data Warehousing on AWS](https://docs.aws.amazon.com/whitepapers/latest/data-warehousing-on-aws/data-warehousing-on-aws.html?did=wp_card&trk=wp_card){:target="\_blank"}
+    - [Storage Best Practices for Data and Analytics Applications](https://docs.aws.amazon.com/whitepapers/latest/building-data-lakes/building-data-lake-aws.html){:target="\_blank"}
+    - [Streaming Data Solutions on AWS](https://docs.aws.amazon.com/whitepapers/latest/streaming-data-solutions-amazon-kinesis/welcome.html){:target="\_blank"}
+    - [Data Warehousing on AWS](https://docs.aws.amazon.com/whitepapers/latest/data-warehousing-on-aws/data-warehousing-on-aws.html){:target="\_blank"}
 
 
 ## Databricks
@@ -130,7 +130,7 @@ Before going through these resources make sure that they are not outdated.
 - Generative AI Engineering with Databricks - Available in Customer and Employee Academy
 - [Databricks Generative AI Associate Exam Study Notes](https://www.vladsiv.com/databricks-genai-prep-notes/){:target="\_blank"}
 - [My Journey towards the Databricks Certified Generative AI Engineer Associate](https://medium.com/@axel.schwanke/my-journey-towards-databricks-certified-generative-ai-engineer-associate-76c1aaced9f0){:target="\_blank"}
-- [Databricks Certified Generative AI Engineer Associate Exams](https://www.udemy.com/course/databricks-certified-generative-ai-engineer-associate-exams/?kw=Databricks+Gen&src=sac&couponCode=ST12MT122624){:target="\_blank"}
+- [Databricks Certified Generative AI Engineer Associate Exams](https://www.udemy.com/course/databricks-certified-generative-ai-engineer-associate-exams){:target="\_blank"}
 
 
 ## Azure
