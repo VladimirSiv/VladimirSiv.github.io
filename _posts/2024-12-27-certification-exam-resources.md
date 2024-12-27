@@ -7,8 +7,8 @@ The focus is mainly on data engineering and machine learning topics."
 toc: true
 toc_label: "Content"
 toc_sticky: true
-date: December 26, 2024
-last_modified_at: December 26, 2024
+date: December 27, 2024
+last_modified_at: December 27, 2024
 og_image: /assets/images/posts/certification-exam-resources/header.jpg
 ---
 
