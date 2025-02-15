@@ -74,6 +74,7 @@ Tech-related books I've enjoyed
 - [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million){:target="\_blank"}
 - [Maximizing Scalability - Apache Kafka and OpenTelemetry](https://signoz.io/blog/maximizing-scalability-apache-kafka-and-opentelemetry/){:target="\_blank"}
 - [How Discord Uses Open-Source Tools for Scalable Data Orchestration & Transformation](https://discord.com/blog/how-discord-uses-open-source-tools-for-scalable-data-orchestration-transformation){:target="\_blank"}
+- [Delta Lake — Partitioning, Z-Order and Liquid Clustering](https://medium.com/towards-data-science/delta-lake-partitioning-z-order-and-liquid-clustering-944030ff1828){:target="\_blank"}
 
 ## Scientific Computing
 
