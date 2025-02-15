@@ -662,12 +662,12 @@ Pienaar, one of the tech leads on a data science platform at GO-JEK, at the
 time.
 
 <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/watch?v=DaNv-Wf1MBA" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/DaNv-Wf1MBA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
 </iframe>
 
@@ -743,13 +743,13 @@ If you'd like to learn more, check out an excellent video from the Data + AI
 Summit 2021, where Databricks announced its feature store and explored its
 details in depth.
 
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/watch?v=zQEiwJqqeeA" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/zQEiwJqqeeA"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
     allowfullscreen>
 </iframe>
 
