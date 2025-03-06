@@ -753,7 +753,7 @@ details in depth.
     allowfullscreen>
 </iframe>
 
-### LinkedIn - Feather
+### LinkedIn - Feathr
 
 Main article: [Open sourcing Feathr - LinkedIn's feature store for productive machine learning](https://www.linkedin.com/blog/engineering/open-source/open-sourcing-feathr--linkedin-s-feature-store-for-productive-m){:target="\_blank"}.
 
