@@ -133,6 +133,22 @@ Before going through these resources make sure that they are not outdated.
 - [Databricks Certified Generative AI Engineer Associate Exams](https://www.udemy.com/course/databricks-certified-generative-ai-engineer-associate-exams){:target="\_blank"}
 
 
+### Data Engineer Professional
+
+The main resources I used:
+- [Official Exam Guide](https://www.databricks.com/sites/default/files/2024-05/databricks-certified-data-engineer-professional-exam-guide.pdf){:target="\_blank"}
+- Advanced Data Engineering with Databricks - Available in Databricks Academy
+- [Udemy - Databricks Certified Data Engineer Professional - Preparation](https://www.udemy.com/course/databricks-certified-data-engineer-professional/){:target="\_blank"}
+- [Udemy - Practice Exams: Databricks Data Engineer Professional](https://www.udemy.com/course/practice-exams-databricks-data-engineer-professional-k){:target="\_blank"}
+- [Whizlabs - Preparation Guide : Databricks Certified Data Engineer Professional Certification](https://www.whizlabs.com/blog/databricks-certified-data-engineer-professional-guide/){:target="\_blank"}
+- [Databricks Certified Data Engineer Professional - Question hints](https://github.com/Amrit-Hub/Databricks-Certified-Data-Engineer-Professional-Questions){:target="\_blank"}
+
+Additional resources:
+- [Diving Into Delta Lake: Unpacking The Transaction Log](https://www.databricks.com/blog/2019/08/21/diving-into-delta-lake-unpacking-the-transaction-log.html){:target="\_blank"}
+- [Diving Into Delta Lake: Schema Enforcement & Evolution](https://www.databricks.com/blog/2019/09/24/diving-into-delta-lake-schema-enforcement-evolution.html){:target="\_blank"}
+- [Stream-Stream Joins using Structured Streaming (Python)](https://docs.databricks.com/aws/en/notebooks/source/stream-stream-joins-python.html){:target="\_blank"}
+- [What is change data capture (CDC)?](https://docs.databricks.com/aws/en/dlt/what-is-change-data-capture){:target="\_blank"}
+
 ## Azure
 
 ### AZ900
