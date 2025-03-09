@@ -32,6 +32,7 @@ Tech bloggers that I find fascinating and inspiring
 - [Daniel Holden](https://theorangeduck.com){:target="\_blank"}
 - [Simon Willison’s Weblog](https://simonwillison.net/){:target="\_blank"}
 - [Sem Sinchenko](https://semyonsinchenko.github.io/ssinchenko/){:target="\_blank"}
+- [Ben Kuhn](https://www.benkuhn.net/){:target="\_blank"}
 
 ## Books
 
