@@ -19,10 +19,10 @@ og_image: /assets/images/posts/databricks-de-pro-prep-notes/header.jpg
     caption="Image Source: <a href='https://www.pexels.com/' target='_blank'>Pexels</a>"
 %}
 
-Last week, I passed the Databricks Data Engineer Professional exam and I wanted
-to share my preparation notes and resources I used. I hope that this will give
-you a better idea of what resources to use and what to focus on during
-your preparation for the exam.
+Last week, I passed the Databricks Data Engineer Professional exam, and I
+wanted to share my preparation notes and the resources I used. I hope this
+will give you a better idea of which resources to use and what to focus on
+during your exam preparation.
 
 The main resources I used:
 - [Official Exam Guide](https://www.databricks.com/sites/default/files/2024-05/databricks-certified-data-engineer-professional-exam-guide.pdf){:target="\_blank"}
