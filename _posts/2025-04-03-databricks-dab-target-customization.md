@@ -30,7 +30,7 @@ and data assets as code. DAB simplifies collaboration and deployment across
 environments, ensuring easier management and scalability of Databricks
 projects.
 
-> If you completely new to DAB, please refer to
+> If you are completely new to DAB, please refer to
 > [What are Databricks Asset Bundles?](https://docs.databricks.com/aws/en/dev-tools/bundles){:target="\_blank"}
 > before continuing with this blog post.
 
