@@ -2,13 +2,13 @@
 title: "Certification Exam Resources"
 page_title: "Certification Exam Resources"
 excerpt: "I’ve put together a collection of resources I’ve used while preparing
-for various certification exams – covering everything from AWS to Databricks.
-The focus is mainly on data engineering and machine learning topics."
+  for various certification exams – covering everything from AWS to Databricks.
+  The focus is mainly on data engineering and machine learning topics."
 toc: true
 toc_label: "Content"
 toc_sticky: true
 date: December 27, 2024
-last_modified_at: December 27, 2024
+last_modified_at: March 09, 2025
 og_image: /assets/images/posts/certification-exam-resources/header.jpg
 ---
 

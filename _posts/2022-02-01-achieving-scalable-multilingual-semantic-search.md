@@ -49,8 +49,7 @@ subject to constant change but I'll try to go over the following topics:
 high-dimensional vector representations
 - **Examples** - open source libraries and code snippets
 
-<br>
-# The Big Picture
+## The Big Picture
 
 ### Seq2Seq
 
