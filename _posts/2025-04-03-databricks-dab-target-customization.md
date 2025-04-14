@@ -9,7 +9,7 @@ toc: true
 toc_label: "Content"
 toc_sticky: true
 date: April 3, 2025
-last_modified_at: April 3, 2025
+last_modified_at: April 14, 2025
 og_image: /assets/images/posts/databricks-dab-target-customization/header.jpg
 ---
 
@@ -166,6 +166,8 @@ And instead of using `resources` in a single YAML, we just specify what we
 want to include
 
 ```yaml
+# databricks.yml
+
 bundle:
   name: test-bundle
 
@@ -269,6 +271,94 @@ each target, project teams gain better organization, control, and flexibility.
 
 This modular approach simplifies configuration management, making it easier to
 track changes, customize deployments, and avoid bloated YAML files.
+
+## Splitting Resources
+
+The previous examples grouped multiple resources into shared YAML files.
+Another approach is to define resources individually and associate them
+directly with their target environments. This creates a clean, intuitive
+structure where each resource lives next to the target it's meant for.
+
+Example project layout
+
+```text
+project/
+├── tests/
+│   └── ...
+├── resources/
+│   ├── pipeline_a.yml
+│   ├── pipeline_b.yml
+│   └── ...
+├── src/
+│   ├── notebook_a.ipynb
+│   ├── notebook_b.ipynb
+│   └── ...
+├── databricks.yml
+└── ...
+```
+
+In this setup, `databricks.yml` includes all resource files:
+
+```yaml
+# databricks.yml
+
+bundle:
+  name: test-bundle
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    ...
+  stg:
+    ...
+  prd:
+    ...
+```
+
+Each resource file defines a resource alongside the target(s) it's
+intended for. For example:
+
+```yaml
+# pipeline_a.yml
+
+anchor_name: &anchor_name
+  resources:
+    ...
+
+targets:
+  dev:
+    <<: *anchor_name
+```
+
+```yaml
+# pipeline_b.yml
+
+anchor_name: &anchor_name
+  resources:
+    ...
+
+targets:
+  dev:
+    <<: *anchor_name
+  stg:
+    <<: *anchor_name
+```
+
+Here we are leveraging
+[YAML anchors](https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/){:target="\_blank"}
+to keep the resource definition DRY and easy to read. The `pipeline_a.yml`
+will only deploy its defined resource to the `dev` environment, while 
+the `pipeline_b.yml` will deploy to both `dev` and `stg`. The main
+`databricks.yml` defines the targets, and the included YAML file extends the
+corresponding section.
+
+You can freely mix this approach with the previously described structures.
+Functionally, they achieve the same result, the choice depends on your
+preferences and the level of modularity you need. This method is especially
+powerful when you have many environment-specific resources and want to avoid
+cluttering large files with multiple unrelated configurations.
 
 ## Runtime Editing 
 
