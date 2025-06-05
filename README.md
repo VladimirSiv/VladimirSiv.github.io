@@ -1,6 +1,6 @@
 # Personal Blog
 
-> **Warning**  
+> [!WARNING]  
 > **This repository is no longer actively maintained.** I’ve rebuilt my [website](www.vladsiv.com) using Next.js, and this version is now deprecated.
 
 I've started this site as an experiment, mainly to practice putting my work 
